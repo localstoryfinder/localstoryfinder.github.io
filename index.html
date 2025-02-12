@@ -4,115 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Journalist Finder</title>
-    <style>
-        :root {
-            --indigo: #3f51b5;
-            --white: #ffffff;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: var(--white);
-            color: var(--indigo);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 2rem;
-            background-color: var(--white);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .menu-btn {
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            color: var(--indigo);
-            cursor: pointer;
-        }
-
-        .duplicate-btn {
-            background-color: var(--indigo);
-            color: var(--white);
-            border: none;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .duplicate-btn:hover {
-            background-color: #303f9f;
-        }
-
-        main {
-            flex-grow: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 2rem;
-        }
-
-        .search-container {
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-        }
-
-        .search-container h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--indigo);
-        }
-
-        .search-box {
-            display: flex;
-            margin-bottom: 1rem;
-        }
-
-        .search-input {
-            flex-grow: 1;
-            padding: 0.75rem 1rem;
-            font-size: 1rem;
-            border: 2px solid var(--indigo);
-            border-right: none;
-            border-radius: 24px 0 0 24px;
-            outline: none;
-        }
-
-        .search-btn {
-            background-color: var(--indigo);
-            color: var(--white);
-            border: none;
-            padding: 0.75rem 1.5rem;
-            font-size: 1rem;
-            border-radius: 0 24px 24px 0;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .search-btn:hover {
-            background-color: #303f9f;
-        }
-
-        @media (max-width: 768px) {
-            .search-container h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -127,8 +19,12 @@
                 <input type="text" class="search-input" placeholder="Type a publication, city, or topic">
                 <button type="submit" class="search-btn">Search</button>
             </form>
+            <div class="results"></div>
         </div>
-    </ma
+    </main>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
