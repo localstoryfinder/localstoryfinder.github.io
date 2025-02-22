@@ -125,3 +125,18 @@ main {
     margin: 0.5rem 0 0;
     color: #555;
 }
+
+
+#placeholder {
+    height: 50vh;
+   -- background-color: #d4cdc3;
+}
+
+#waypoint {
+ --   background-color: #d5d0cd;
+}
+
+#bottom {
+    height: 200vh;
+  --  background-color: #a2a392;
+}
