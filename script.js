@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const searchInput = document.querySelector(".search-input");
     const resultsContainer = document.querySelector(".results");
 
-    // Fetch the JSON data (Replace 'data.json' with actual path)
+    // Fetch the JSON data (Replace 'sf_news.json' with actual path)
     let data = [];
     try {
-        const response = await fetch("data.json");
+        const response = await fetch("sf_news.json");
         data = await response.json();
     } catch (error) {
         console.error("Error loading JSON data:", error);
@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     // Initialize Fuse.js
-    const fuse = new Fuse(data, {
-        keys: ["name", "source", "title", "topics"],
+    const articles = data['articles'];
+    const fuse = new Fuse(articles, {
+        keys: ["author", "source", "title", "description"],
         threshold: 0.3
     });
 
@@ -30,10 +31,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             const resultItem = document.createElement("div");
             resultItem.classList.add("result-item");
             resultItem.innerHTML = `
-                <h3>${item.name}</h3>
-                <p><strong>Source:</strong> ${item.source}</p>
+                <h3>${item.author}</h3>
+                <p><strong>Source:</strong> ${item.source.name}</p>
                 <p><strong>Title:</strong> ${item.title}</p>
-                <p><strong>Topics:</strong> ${item.topics.join(", ")}</p>
+                 <p><strong>Description:</strong> ${item.description}</p>
             `;
             resultsContainer.appendChild(resultItem);
         });
