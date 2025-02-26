@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             resultItem.innerHTML = `
                 <h3>${item.name}</h3>
                 <p><strong>Source:</strong> ${item.source}</p>
-                <p><strong>Title:</strong> ${item.title}</p>
+                <p><strong>Title:</strong><a href="${item.url}">${item.title}</a></p>
                 <p><strong>Topics:</strong> ${item.topics.join(", ")}</p>
             `;
             resultsContainer.appendChild(resultItem);
