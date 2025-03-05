@@ -1,0 +1,26 @@
+{
+    "newsapi": [
+        "ebar.com",
+        "sfexaminer.com",
+        "sfchronicle.com",
+        "westsideobserver.com",
+        "missionlocal.org",
+        "thefrisc.com",
+        "sfpublicpress.org",
+        "sfgate.com",
+        "brokeassstuart.com",
+        "sfstandard.com",
+        "sfbayview.com",
+        "eltecolote.org",
+        "jweekly.com",
+        "kalw.org",
+        "kqed.org"
+    ],
+    "rss": [
+        "calhealthreport.org",
+        "sf.streetsblog.org",
+        "kpoo.com",
+        "boldlatina.com",
+        "thesunreporter.com"
+    ]
+}
