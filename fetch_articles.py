@@ -76,7 +76,7 @@ for outlet in newsapi_sources:
         data = response.json()
         for article in data.get("articles", []):
             if not is_duplicate(article["url"]):
-                articles.append({
+                articles.insert(0, {  # Insert at the beginning
                     "source": {
                         "id": article["source"].get("id"),
                         "name": article["source"].get("name")
