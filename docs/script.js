@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Initialize Fuse.js
     const articles = data['articles'];
     const fuse = new Fuse(articles, {
-        keys: ["author", "source", "title", "content"],
+        keys: ["author", "source", "title"],
         threshold: 0.3
     });
 
@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <h3 class="author-name">${item.author}</h3>
                 <p>${item.source.name}</p>
                 <p><a href="${item.url}">${item.title}</a></p>
-                <p>${item.content}</p>
             `;
             resultsContainer.appendChild(resultItem);
         });

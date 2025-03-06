@@ -66,6 +66,14 @@ main {
     color: var(--indigo);
 }
 
+.search-container h2 {
+    font-size: 1.5rem; /* Slightly smaller than h1 */
+    margin-bottom: 0.5rem;
+    color: var(--complementary-color); /* Complementary color */
+    font-family: 'Georgia', serif; /* Chic yet professional font */
+    font-style: italic; /* Adding a bit of style */
+}
+
 .search-box {
     display: flex;
     justify-content: center;
