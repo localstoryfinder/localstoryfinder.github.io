@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             const resultItem = document.createElement("div");
             resultItem.classList.add("result-item");
             resultItem.innerHTML = `
-                <h3>${item.author}</h3>
-                <p><strong>Source:</strong> ${item.source.name}</p>
-                <p><strong>Title:</strong><a href="${item.url}">${item.title}</a></p>
-                <p><strong>Content:</strong> ${item.content}</p>
+                <h3 class="author-name">${item.author}</h3>
+                <p>${item.source.name}</p>
+                <p><a href="${item.url}">${item.title}</a></p>
+                <p>${item.content}</p>
             `;
             resultsContainer.appendChild(resultItem);
         });
