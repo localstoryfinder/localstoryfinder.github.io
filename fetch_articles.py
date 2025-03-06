@@ -70,7 +70,7 @@ for outlet in newsapi_sources:
         "apiKey": NEWS_API_KEY,
         "from": from_date.strftime("%Y-%m-%d"),
     }
-    response = requests.get(NEWS_API_URL, params=params)
+    response = requests.get(NEWSAPI_URL, params=params)
     
     if response.status_code == 200:
         data = response.json()
