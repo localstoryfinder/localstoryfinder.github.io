@@ -1,6 +1,13 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const searchInput = document.querySelector(".search-input");
     const resultsContainer = document.querySelector(".results");
+    const menuBtn = document.querySelector(".menu-btn");
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+
+    // Toggle dropdown menu
+    menuBtn.addEventListener("click", () => {
+        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+    });
 
     // Fetch the JSON data (Replace 'san_francisco_news.json' with actual path)
     let data = [];
@@ -15,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Initialize Fuse.js
     const articles = data['articles'];
     const fuse = new Fuse(articles, {
-        keys: ["author", "source", "title"],
+        keys: ["author", "source", "title", "content"],
         threshold: 0.3
     });
 

@@ -1,17 +1,21 @@
+/* Define color variables for the theme */
 :root {
     --indigo: #3f51b5;
     --white: #ffffff;
-    --highlight: #ff5722; /* New color for highlighting author names */
+    --highlight: #ff5722; /* Highlight color for author names */
     --light-gray: #f5f5f5; /* Light gray background for result items */
     --dark-gray: #333333; /* Dark gray text color for result items */
+    --complementary-color: #ff9800; /* Complementary color for h2 */
 }
 
+/* Reset default margin and padding, and set box-sizing to border-box */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Style for the body element */
 body {
     font-family: 'Arial', sans-serif;
     background-color: var(--white);
@@ -21,15 +25,18 @@ body {
     flex-direction: column;
 }
 
+/* Style for the header element */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the left */
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--white);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
 }
 
+/* Style for the menu button */
 .menu-btn {
     background: none;
     border: none;
@@ -38,14 +45,44 @@ header {
     cursor: pointer;
 }
 
-.duplicate-btn {
-    background: none;
-    border: none;
-    font-size: 1rem;
-    color: var(--indigo);
-    cursor: pointer;
+/* Style for the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 3rem; /* Position below the menu button */
+    left: 2rem; /* Align with the menu button */
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
 }
 
+/* Style for the links inside the dropdown menu */
+.dropdown-menu a {
+    display: block;
+    padding: 1rem;
+    color: var(--indigo);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hover effect for the links inside the dropdown menu */
+.dropdown-menu a:hover {
+    background-color: var(--light-gray);
+}
+
+nav a {
+    margin-left: 1rem;
+    color: var(--indigo);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the main content area */
 main {
     flex-grow: 1;
     display: flex;
@@ -55,17 +92,20 @@ main {
     padding: 2rem;
 }
 
+/* Style for the search container */
 .search-container {
     padding: 2rem;
     text-align: center;
 }
 
+/* Style for the main heading (h1) */
 .search-container h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     color: var(--indigo);
 }
 
+/* Style for the subheading (h2) */
 .search-container h2 {
     font-size: 1.5rem; /* Slightly smaller than h1 */
     margin-bottom: 0.5rem;
@@ -74,12 +114,14 @@ main {
     font-style: italic; /* Adding a bit of style */
 }
 
+/* Style for the search box */
 .search-box {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
 }
 
+/* Style for the search input field */
 .search-input {
     padding: 0.5rem;
     font-size: 1rem;
@@ -89,6 +131,7 @@ main {
     width: 300px; /* Adjust width to original size */
 }
 
+/* Style for the search button */
 .search-btn {
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -99,20 +142,24 @@ main {
     cursor: pointer;
 }
 
+/* Style for the articles container */
 #articles-container {
     text-align: left;
 }
 
+/* Style for each article item */
 #articles-container div {
     margin-bottom: 1rem;
 }
 
+/* Style for the links inside the articles container */
 #articles-container a {
     color: var(--indigo);
     text-decoration: none;
     font-size: 1.2rem;
 }
 
+/* Style for the author names */
 #articles-container .author-name,
 .results .author-name {
     font-size: 1.5rem;
@@ -121,6 +168,7 @@ main {
     margin-bottom: 0.5rem;
 }
 
+/* Style for the results container */
 .results {
     width: 100%;
     display: flex;
@@ -128,6 +176,7 @@ main {
     align-items: center;
 }
 
+/* Style for each result item */
 .result-item {
     width: 80%;
     max-width: 600px;
@@ -141,27 +190,53 @@ main {
     text-align: left; /* Left-align content */
 }
 
+/* Hover effect for each result item */
 .result-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+/* Style for the headings inside each result item */
 .result-item h3 {
     font-size: 1.2rem;
-    color: var(--dark-gray);
+    color: var (--dark-gray);
 }
 
+/* Style for the paragraphs inside each result item */
 .result-item p {
     margin: 0.5rem 0;
-    color: var(--dark-gray);
+    color: var (--dark-gray);
 }
 
+/* Style for the links inside each result item */
 .result-item a {
     color: var(--indigo);
     text-decoration: underline; /* Make link more clearly clickable */
     font-weight: bold;
 }
 
+/* Hover effect for the links inside each result item */
 .result-item a:hover {
     text-decoration: underline;
+}
+
+/* Style for the about container */
+.about-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Style for the main heading (h1) in the about container */
+.about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--indigo);
+}
+
+/* Style for the paragraphs in the about container */
+.about-container p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--dark-gray);
+    line-height: 1.5;
 }
