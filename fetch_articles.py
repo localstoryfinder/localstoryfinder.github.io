@@ -15,7 +15,7 @@ from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 
 # Configurations
-NEWS_API_KEY = os.getenv("NEWSAPI_KEY")
+NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 NEWS_API_URL = "https://newsapi.org/v2/everything"
 LAST_FETCH_FILE = "last_fetch.json"
 ARTICLES_FILE = "articles.json"
