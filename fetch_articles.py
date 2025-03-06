@@ -67,10 +67,10 @@ def clean_text(text):
 for outlet in newsapi_sources:
     params = {
         "domains": outlet,
-        "apiKey": NEWS_API_KEY,
+        "apiKey": NEWSAPI_KEY,
         "from": from_date.strftime("%Y-%m-%d"),
     }
-    response = requests.get(NEWSAPI_URL, params=params)
+    response = requests.get(NEWS_API_URL, params=params)
     
     if response.status_code == 200:
         data = response.json()
