@@ -105,7 +105,7 @@ for outlet in rss_sources:
             for entry in feed.entries[:100]:  # Limit to first 100 articles per source
                 article_url = entry.link
                 if not is_duplicate(article_url):
-                    articles.append({
+                    articles.insert(0, {
                         "source": {
                             "id": None,
                             "name": outlet  # Using the outlet name as the source
