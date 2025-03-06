@@ -2792,5 +2792,49 @@
         "description": "",
         "url": "https://thesunreporter.com/wp-content/uploads/2025/01/Sun-Reporter-1-16-25.pdf",
         "publishedAt": "Thu, 16 Jan 2025 17:23:12 +0000"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Oakland Mayoral Debate: Answers on I-980 Removal",
+        "description": "Do your research, but for those who missed Tuesday's mayoral debate, here's a little sample of where the candidates stand on an issue near-and-dear to readers\nThe post Oakland Mayoral Debate: Answers on I-980 Removal appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/05/oakland-mayoral-debate-answers-on-i-980-removal",
+        "publishedAt": "Wed, 05 Mar 2025 23:00:23 +0000"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, March 5",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, March 5 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/05/headlines-march-5-2",
+        "publishedAt": "Wed, 05 Mar 2025 16:04:33 +0000"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "Do Women and Caregivers Need More From The \u2018Mobility Hub\u2019?",
+        "description": "It's one of the buzziest planning concepts around. So why is there so little research on how well \"mobility hubs\" work for women and caregivers?\nThe post Do Women and Caregivers Need More From The \u2018Mobility Hub\u2019? appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/03/05/do-women-and-caregivers-need-more-from-the-mobility-hub",
+        "publishedAt": "Wed, 05 Mar 2025 05:02:00 +0000"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Damien Newton",
+        "title": "Zbur Introduces Legislation Requiring Quick-Build Bike Lanes on State Highways",
+        "description": "AB 891 is sponsored by the California Bicycle Coalition (CalBike) who note that the bill will allow projects to be moved on the ground faster and reduce planning and engineering costs. The post Zbur Introduces Legislation Requiring Quick-Build Bike Lanes on State Highways appeared first on Streetsblog California.",
+        "url": "https://cal.streetsblog.org/2025/03/04/zbur-introduces-legislation-allowing-quick-build-on-state-highways",
+        "publishedAt": "Tue, 04 Mar 2025 19:27:01 +0000"
     }
 ]
