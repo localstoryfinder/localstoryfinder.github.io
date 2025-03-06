@@ -2,7 +2,7 @@ name: Fetch Articles
 
 on:
   schedule:
-    - cron: "0 7 * * *"  # Runs daily at 7 AM UTC
+    - cron: "0 14 * * *"  # Runs daily at 2 PM UTC or 6 AM PT
   workflow_dispatch:  
 
 permissions: # Add permissions block
