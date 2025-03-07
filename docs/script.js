@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Fetch the JSON data (Replace 'san_francisco_news.json' with actual path)
     let data = [];
     try {
-        const response = await fetch("san_francisco_news.json");
+        const response = await fetch("articles.json");
         data = await response.json();
     } catch (error) {
         console.error("Error loading JSON data:", error);
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Initialize Fuse.js
     const articles = data['articles'];
     const fuse = new Fuse(articles, {
-        keys: ["author", "source", "title", "content"],
+        keys: ["author", "source", "title"],
         threshold: 0.3
     });
 
