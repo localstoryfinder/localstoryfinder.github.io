@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
     });
 
-    // Fetch the JSON data (Replace 'san_francisco_news.json' with actual path)
+    // Fetch the JSON data (Replace 'articles.json' with actual path)
     let data = [];
     try {
         const response = await fetch("articles.json");
