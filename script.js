@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       "kpoo.com": "KPOO",
       "boldlatina.com": "Bold Latina",
       "thesunreporter.com": "San Francisco Sun Reporter", // Added missing comma here
-      "sfstandard.com": "SF Standard"
+      "Sfstandard.com": "SF Standard"
     };
     
     // Function to get formatted source name
