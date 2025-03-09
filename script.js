@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       "sf.streetsblog.org": "Streetsblog SF",
       "kpoo.com": "KPOO",
       "boldlatina.com": "Bold Latina",
-      "thesunreporter.com": "San Francisco Sun Reporter", // Added missing comma here
+      "thesunreporter.com": "San Francisco Sun Reporter", 
       "Sfstandard.com": "SF Standard"
     };
     
