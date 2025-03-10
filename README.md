@@ -10,20 +10,20 @@ People trust local news more than any other kind—and for good reason. Local jo
 
 By centralizing access to content from local news outlets, this project aims to:
 1. Make local journalism more discoverable
-2. Help readers follow specific local journalists
+2. Help readers follow specific local journalists # Delete maybe
 3. Highlight the work of smaller news outlets
 4. Promote awareness of local news sources
 
 ## Features
 - **Automatic Content Aggregation**: Daily updates from both NewsAPI and RSS feeds
-- **Author Pages**: Dedicated pages for each journalist with their collected works
+- **Author Pages**: Dedicated pages for each journalist with their collected works # Delete maybe
 - **Search Functionality**: Find articles by author, publication, or topic
 - **Responsive Design**: Works on mobile and desktop devices
 
 ## Technical Implementation
 
 ### Data Collection
-- **NewsAPI Integration**: Fetches articles from major SF news outlets
+- **NewsAPI Integration**: Fetches articles from local SF news outlets
 - **RSS Feed Parsing**: Collects articles from outlets not available through NewsAPI
 - **Automated Updates**: GitHub Actions workflow runs daily at 6 AM PT
 - **Deduplication**: Prevents duplicate articles across sources
@@ -72,7 +72,7 @@ This project currently aggregates content from the following sources:
 
 2. Install required packages
    ```
-   pip install requests feedparser beautifulsoup4 jinja2
+   pip install requests feedparser beautifulsoup4 jinja2 # Delete jinja2 maybe
    ```
 
 3. Set up your NewsAPI key as an environment variable
@@ -100,9 +100,6 @@ This project currently aggregates content from the following sources:
 
 ### Deployment
 The site automatically deploys to GitHub Pages when changes are pushed to the main branch. The workflow in `.github/workflows/fetch_articles.yml` runs daily to update the content.
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Created By
 Enkhjin Munkhbayar and Hannah Woodworth at Stanford University, March 2025.
