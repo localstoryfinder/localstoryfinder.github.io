@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodology - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home Page</a>
+            <a href="about.html">About Page</a>
+            <a href="methodology.html">Methodology</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-container">
+            <h1>Create a Local Journalist Finder for Your City</h1>
+            <p><strong>Step 1: Fork the Repository</strong></p>
+            <p>Start by creating your own copy of our GitHub repository:</p>
+            <ul>
+                <li>Go to our GitHub repository</li>
+                <li>Click the "Fork" button in the top right corner</li>
+                <li>Name your repository "[your-city]journalistfinder.github.io"</li>
+                <li>Need help? See GitHub's guide on how to fork a repository.</li>
+            </ul>
+            <p><strong>Step 2: Update sources.json for Your City</strong></p>
+            <p>The sources.json file contains the list of news outlets to track. You'll need to update it with outlets from your city:</p>
+            <pre><code>{
+  "newsapi": [
+    "yourlocalexample.com",
+    "citynewsoutlet.com",
+    "localpaper.com"
+  ],
+  "rss": [
+    "communityvoice.org",
+    "neighborhoodnews.com"
+  ]
+}</code></pre>
+            <p>To find local news outlets in your area:</p>
+            <ul>
+                <li>Check Northwestern's State of Local News database</li>
+                <li>Look for news aggregator sites for your city</li>
+                <li>Search for "[your city] local news" to find outlets</li>
+            </ul>
+            <p><strong>Step 3: Get a NewsAPI Key</strong></p>
+            <p>To fetch articles from news outlets, you'll need a NewsAPI key:</p>
+            <ul>
+                <li>Sign up for a free account at NewsAPI.org</li>
+                <li>Copy your API key from the dashboard</li>
+                <li>Add it as a repository secret in GitHub:</li>
+                <ul>
+                    <li>Go to your repository Settings → Secrets and variables → Actions</li>
+                    <li>Click "New repository secret"</li>
+                    <li>Name: NEWSAPI_KEY</li>
+                    <li>Value: Your NewsAPI key</li>
+                </ul>
+            </ul>
+            <p>Created by Enkhjin Munkhbayar and Hannah Woodworth at Stanford University, March 2025.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

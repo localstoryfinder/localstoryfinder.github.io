@@ -90,6 +90,7 @@ main {
     align-items: center;
     flex-direction: column;
     padding: 2rem;
+    background-color: var(--light-gray);
 }
 
 /* Style for the search container */
@@ -164,7 +165,7 @@ main {
 .results .author-name {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--highlight);
+    color: var (--highlight);
     margin-bottom: 0.5rem;
 }
 
@@ -220,23 +221,65 @@ main {
     text-decoration: underline;
 }
 
-/* Style for the about container */
+/* Ensure text alignment for the about-container */
 .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--white);
     padding: 2rem;
-    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left; /* Ensure left alignment */
 }
 
-/* Style for the main heading (h1) in the about container */
+/* Style for headings */
 .about-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
     color: var(--indigo);
+    margin-bottom: 1rem;
+    text-align: left; /* Ensure left alignment */
 }
 
-/* Style for the paragraphs in the about container */
+.about-container h2 {
+    font-size: 1.5rem;
+    color: var(--complementary-color);
+    margin-bottom: 1rem;
+    text-align: left; /* Ensure left alignment */
+}
+
+/* Style for paragraphs */
 .about-container p {
     font-size: 1rem;
-    margin-bottom: 1rem;
     color: var(--dark-gray);
-    line-height: 1.5;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    text-align: left; /* Ensure left alignment */
+}
+
+/* Style for lists */
+.about-container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove left padding */
+    margin-bottom: 1rem;
+    text-align: left; /* Ensure left alignment */
+}
+
+.about-container ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem; /* Add padding to align text */
+    text-indent: -1.5rem; /* Indent text to align with padding */
+}
+
+/* Style for code blocks */
+.about-container pre {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    text-align: left; /* Ensure left alignment */
+}
+
+.about-container code {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--highlight);
 }
