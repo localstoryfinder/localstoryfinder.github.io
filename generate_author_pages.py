@@ -1,3 +1,8 @@
+# This script generates author pages from articles.json.
+# It extracts unique authors, assigns their articles, and creates HTML pages.
+# Each author gets an individual page listing their published articles.
+# The pages are saved in the "authors" directory.
+
 import json
 import os
 from jinja2 import Template
@@ -53,9 +58,9 @@ AUTHOR_TEMPLATE = """<!DOCTYPE html>
     <header>
         <button class="menu-btn">☰</button>
         <nav class="dropdown-menu">
-            <a href="../index.html">Home</a>
-            <a href="../about.html">About</a>
-            <a href="../methodology.html">Create Your Own</a>
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/methodology.html">Create Your Own</a>
         </nav>
     </header>
     
@@ -79,17 +84,6 @@ AUTHOR_TEMPLATE = """<!DOCTYPE html>
     </main>
 
     <script src="../script.js"></script>
-    
-    <script>
-    document.querySelector('.menu-btn').addEventListener('click', function() {
-        const dropdownMenu = document.querySelector('.dropdown-menu');
-        if (dropdownMenu.style.display === 'block') {
-            dropdownMenu.style.display = 'none';
-        } else {
-            dropdownMenu.style.display = 'block';
-        }
-    });
-    </script>
 </body>
 </html>"""
 

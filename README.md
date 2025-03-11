@@ -1,6 +1,6 @@
 # San Francisco's Local Story Finder
 
-**[Visit the Live Site](https://localjournalistfinder.github.io/)**
+**[Visit the Live Site](https://localstoryfinder.github.io)**
 
 ## Overview
 The Local Story Finder is a tool designed to help readers discover local journalists covering the San Francisco Bay Area. By aggregating content from multiple local news sources via NewsAPI and RSS feeds, the platform provides a searchable database of articles that can be filtered by author, publication, or topic.
@@ -15,7 +15,7 @@ By centralizing access to content from local news outlets, this project aims to:
 
 ## Features
 - **Automatic Content Aggregation**: Daily updates from both NewsAPI and RSS feeds
-- **Author Pages**: Dedicated pages for each journalist with their collected works # Delete maybe
+- **Author Pages**: Dedicated pages for each journalist with their collected works 
 - **Search Functionality**: Find articles by author, publication, or topic
 - **Responsive Design**: Works on mobile and desktop devices
 
