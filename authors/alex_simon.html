@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Simon - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Alex Simon</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/giants/article/sf-giants-prospect-bryce-eldridge-brutal-spring-20202833.php" target="_blank">SF Giants' incredibly hyped top prospect had an absolutely brutal spring</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Bryce Eldridge is clearly the top prospect in the San Francisco Giants organization, but the 20-year-old's first look at MLB spring training was brutal.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/giants/article/sf-giants-too-cheap-stream-spring-training-games-20186823.php" target="_blank">SF Giants appear to be too cheap to stream spring training games</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The San Francisco Giants are back playing spring training baseball, but the team seems to be too cheap to give fans in the Bay Area a way to watch the games.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/warriors/article/warriors-fan-klay-thompson-knockout-david-lee-20174406.php" target="_blank">Warriors fan has on-court showdown with Klay Thompson — and wins</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Meet the Golden State Warriors fan who had the 'top moment of my life' on Saturday, when he took on Klay Thompson on the court in knockout — and won.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/49ers/article/espn-insider-49ers-deebo-samuel-trade-cut-20175686.php" target="_blank">ESPN insider: 49ers only have 1 'reasonable' option with Deebo Samuel</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The San Francisco 49ers and star receiver Deebo Samuel are heading toward a divorce this offseason, but one insider thinks it won't be via trade.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/warriors/article/google-hilariously-botches-warriors-champ-stat-20174398.php" target="_blank">According to Google, this Warriors bench player is the best shooter of all time</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>A post from a sports satire account about three-time Golden State Warriors champion Shaun Livingston has duped Google Search into spreading misinformation.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/giants/article/sf-giants-legend-barry-bonds-road-cycling-records-20173771.php" target="_blank">Barry Bonds is now putting up mind-bending stats outside of baseball</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>San Francisco Giants legend Barry Bonds is setting records on Bay Area roads, thanks to his profound love of cycling.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/giants/article/mlb-unveils-new-sf-giants-hat-error-20172111.php" target="_blank">MLB unveils new SF Giants hat with a silly error all over it</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>MLB has made a San Francisco Giants hat with a noticeable error on it for the second time this has happened this month, this time for St. Patrick's Day hats.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/warriors/article/bay-area-location-nba-all-star-nightmares-20171960.php" target="_blank">One Bay Area location gave an NBA All-Star 'nightmares' this weekend</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>NBA All-Star weekend took a few events to the Oakland Arena, the Golden State Warriors' former home. One NBA star said returning there gave him "nightmares."</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/warriors/article/jimmy-butler-not-with-warriors-nba-all-star-20170808.php" target="_blank">Why Jimmy Butler isn't with the Warriors for NBA All-Star weekend</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Most of the Golden State Warriors are quite busy in and around the Bay Area during NBA All-Star weekend. But new star Jimmy Butler is not even in town.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/49ers/article/jerry-rice-roasts-barry-bonds-nba-all-star-20168721.php" target="_blank">Jerry Rice brutally roasts Barry Bonds at NBA All-Star Celebrity Game</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Jerry Rice viciously roasted his fellow Bay Area sports legend Barry Bonds to kick off the NBA All-Star Celebrity Game on Friday in Oakland.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/warriors/article/steph-curry-sabrina-ionescu-nba-all-star-shootout-20165562.php" target="_blank">Steph Curry, Sabrina Ionescu won't have NBA All-Star weekend shootout in SF</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Despite NBA All-Star weekend coming to San Francisco, Bay Area stars Steph Curry and Sabrina Ionescu stunningly won't be reviving their NBA-WNBA shootout.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/49ers/article/49ers-countdown-clock-brock-purdy-extension-20163365.php" target="_blank">The countdown clock for the 49ers and Brock Purdy has begun</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The San Francisco 49ers are facing yet another offseason of quarterback questions, this time regarding Brock Purdy's contract extension.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

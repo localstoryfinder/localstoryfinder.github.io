@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keith Mizuguchi - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Keith Mizuguchi</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030264/can-music-help-with-mental-health-issues" target="_blank">Can Music Help With Mental Health Issues?</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>An LA company is seeking approval from the FDA to prescribe music treatments for specific mental health conditions.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030006/san-diego-homeless-encampment-ban-pushes-many-further-away-from-services" target="_blank">San Diego Homeless Encampment Ban Pushes Many Further Away From Services</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Outreach workers say it’s more difficult and more dangerous to reach patients at encampments near freeways.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029778/immigrant-day-laborers-trained-on-safely-cleaning-up-after-la-fires" target="_blank">Immigrant Day Laborers Trained On Safely Cleaning Up After LA Fires</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Agencies are training workers on home remediation, the process of cleaning a smoke-damaged house to make it habitable.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029549/bay-area-womans-legal-victory-challenges-state-encampment-crackdown" target="_blank">Bay Area Woman’s Legal Victory Challenges State Encampment Crackdown</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>It’s thought to be the first court victory of its kind since the Supreme Court made it harder to stop encampment sweeps.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029420/challenges-keeping-hollywood-production-in-california" target="_blank">Challenges Keeping Hollywood Production In California</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The state has proposed a major expansion of the state's tv and film tax credit program.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028928/teen-court-program-launches-in-del-norte-county" target="_blank">Teen Court Program Launches In Del Norte County</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>It's a diversion program run by teenagers for teenagers.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

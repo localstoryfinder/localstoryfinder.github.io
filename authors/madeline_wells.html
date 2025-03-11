@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madeline Wells - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Madeline Wells</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/sf-24-hour-diner-for-sale-20202300.php" target="_blank">Legendary San Francisco 24-hour diner up for sale after nearly 50 years</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>For nearly five decades, Orphan Andy's has been a refuge for the LGBTQ community and a fixture of the Castro.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/sf-ferry-building-restaurant-empty-20168598.php" target="_blank">The storied SF waterfront restaurant that no one seems to want</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Located behind the Ferry Building, 1 Ferry Plaza East has sweeping waterfront views of the Bay Bridge. But for 12 years, it's been empty.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/sf-bagel-shop-expanding-20176302.php" target="_blank">One of SF's most popular bagel shops is expanding to downtown</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Schlok's Bagels & Lox, the popular NoPa bagel shop that regularly draws long lines down the sidewalk, is expanding.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/korean-grocery-chain-bay-area-store-20166289.php" target="_blank">Korean grocery chain plans to open fourth Bay Area store in former Target</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Following the chain's announcement last year of an upcoming Dublin location, Mega Mart has now also applied for a building permit in East Palo Alto.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/safeway-bay-area-store-closure-20165623.php" target="_blank">Safeway announces second Bay Area store closure this week</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Safeway also recently closed its San Francisco Fillmore District store and announced the upcoming closure of its Pinole store.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/california-oldest-chinese-restaurant-for-sale-20161390.php" target="_blank">Oldest Chinese restaurant in California is up for sale as owners retire</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Chicago Cafe, a restaurant in Woodland, is California's oldest Chinese restaurant, and possibly even the oldest in the country.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

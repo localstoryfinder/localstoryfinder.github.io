@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evan Ward - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Evan Ward</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/thurmond-details-education-priorities-funding-challenges-during-senate-committee-hearing/" target="_blank">Thurmond Details Education Priorities, Funding Challenges During Senate Committee Hearing</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>Joe W. Bowers Jr.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/lafd-captain-recently-fired-chief-crowley-allegedly-understaffed-department-on-purpose-before-fires/" target="_blank">LAFD Captain: Recently Fired Chief Crowley Allegedly Understaffed Department on Purpose Before Fires</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>Edward Henderson | California Black Media   On Feb. 21, Los Angeles Mayor Karen Bass relieved L.A.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/mayor-lurie-appoints-mattie-scott-to-police-commission-swears-in-new-commissioner-wilson-leung/" target="_blank">MAYOR LURIE APPOINTS MATTIE SCOTT TO POLICE COMMISSION, SWEARS IN NEW COMMISSIONER WILSON LEUNG</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>SAN FRANCISCO – Mayor Daniel Lurie today appointed longtime gun safety advocate Mattie Scott to the San Francisco Police Commission and swore in new commissioner Wilson Leung, who was approved unanimously by the Board of Supervisors earlier this week. A longtime public safety champion who lost her youngest son to gun violence, Scott is a national […]</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/trump-administration-rescinds-federal-funding-freeze-after-court-ruling-and-backlash/" target="_blank">Trump Administration Rescinds Federal Funding Freeze After Court Ruling and Backlash</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>By Evan Ward   President Donald Trump’s administration on Wednesday rescinded a Project 2025-inspired order that had abruptly frozen most federal grants and loans, a sweeping directive that threw social service programs like Head Start, student loans, and Medicaid into disarray. The initial order, issued earlier in the week, sparked widespread confusion and disruption, prompting […]</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/california-vs-hate-aims-to-improve-reporting-in-rural-areas/" target="_blank">California vs. Hate Aims to Improve Reporting in Rural Areas</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>Edward Henderson | California Black Media In May of 2023, California launched an anti-hate hotline and resource network, California vs Hate, to address a sharp rise in reported hate crimes targeting racial and ethnic minority populations. While data has shown reported incidents nearly doubled since 2019, rural areas of California continue to be underreported.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/congresswoman-simon-ceremonially-sworn-in-by-vice-president-kamala-harris/" target="_blank">Congresswoman Simon Ceremonially Sworn in by Vice President Kamala Harris</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>By Evan Ward On January 7, 2025, Congresswoman Lateefah Simon (D-CA-12) stood in the vice president’s ceremonial office, flanked by family and friends, as Kamala Harris swore her in. It wasn’t just a photo-op.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/wiley-is-new-alameda-county-superior-court-judge/" target="_blank">Wiley Is New Alameda County Superior Court Judge</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>Former San Francisco Inspector General, Terry Wiley, was sworn in Wednesday as an Alameda County Superior Court Judge. Judge Wiley also worked as an Alameda County Prosecutor.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/14-new-california-laws-you-should-know-about/" target="_blank">14 New California Laws You Should Know About</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>Antonio Ray Harvey | California Black Media Several new laws took effect on Jan. 1 in California that may impact your job, business, finances, privacy, family, and day-to-day life.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/fierce-wildfires-ravage-los-angeles-displacing-thousands-how-to-help/" target="_blank">Fierce Wildfires Ravage Los Angeles, Displacing Thousands: How to Help</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p>By Stacy M. Brown NNPA Newswire Senior National Correspondent @StacyBrownMedia Fierce wildfires are devastating the greater Los Angeles area, claiming at least five lives and forcing 100,000 residents to evacuate.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://thesunreporter.com/wp-content/uploads/2025/01/Sun-Reporter-1-16-25.pdf" target="_blank">Vol 80 No. 47</a></h3>
+                    <p class="source-name">thesunreporter.com</p>
+                    <p></p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

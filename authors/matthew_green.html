@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Green - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Matthew Green</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030313/uc-berkeley-scientists-protest-trump-administrations-cuts-to-research-funding" target="_blank">UC Berkeley Scientists Protest Trump Administration’s Cuts to Research Funding</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Hundreds of UC Berkeley scientists and students rallied in support of research funding as President Donald Trump delayed and slashed research budgets.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030116/rep-lateefah-simon-rebukes-trump-in-fiery-speech-calls-for-bold-progressive-action" target="_blank">Rep. Lateefah Simon Rebukes Trump in Fiery Speech, Calls for Bold Progressive Action</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Simon, who filled Barbara Lee’s East Bay congressional seat, spoke to KQED one day after delivering a defense of progressive values in response to the Trump administration.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029822/2-families-sue-san-bruno-school-district-over-teachers-sexual-abuse-students" target="_blank">2 Families Sue San Bruno School District Over Teacher’s Sexual Abuse of Students</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The suit comes less than a week after a jury found Jeremy Yeh, a former teacher at Allen Elementary School, guilty of molesting four female students.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029645/oakland-clears-homeless-encampment-installs-shipping-container-barrier" target="_blank">‘Nowhere to Go’: Unhoused Residents Displaced as Oakland Seals Off Encampment</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Oakland last week began sweeping the large encampment that for years has occupied a privately owned vacant lot on Alameda Avenue, next to a Home Depot.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029450/steph-curry-surprised-oakland-youth-gym-with-50000-its-leader-kept-the-cash-feds-say" target="_blank">Steph Curry Surprised Oakland Youth Gym With $50,000. Its Leader Kept the Cash, Feds Say</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Solomon Howard is accused of embezzling over $100,000 from the East Oakland Boxing Association, which Steph and Ayesha Curry visited on Ellen DeGeneres’ TV show. He pleaded not guilty.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

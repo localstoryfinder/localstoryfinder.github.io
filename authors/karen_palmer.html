@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Palmer - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Karen Palmer</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/la/article/fine-dining-trend-seline-somni-los-angeles-20173732.php" target="_blank">The hottest trend in Los Angeles dining is money</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The city's restaurants may be having a tough time, but Los Angeles is seeing a lot of fine dining and tasting menu openings.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/la/article/original-pantry-cafe-protest-downtown-los-angeles-20177898.php" target="_blank">One of LA's oldest restaurants is for sale. Now workers are protesting.</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The Original Pantry Cafe in Downtown LA was the site of an employee and union protest due to its possible sale.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/la/article/porsche-experience-center-carson-california-20107593.php" target="_blank">How to spend $750 on a burger in Los Angeles — race car included</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>At the Porsche Experience Center in Carson, you can drive a sports car and enjoy a great meal at Restaurant 917.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

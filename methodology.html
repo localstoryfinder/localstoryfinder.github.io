@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methodology - SF Local Story Finder</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Maintain bullet point indentation */
+        ul {
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <button class="menu-btn">☰</button>
         <nav class="dropdown-menu">
-            <a href="index.html">Home Page</a>
-            <a href="about.html">About Page</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
             <a href="methodology.html">Methodology</a>
         </nav>
     </header>
@@ -19,47 +26,60 @@
     <main>
         <div class="about-container">
             <h1>Create a Local Story Finder for Your City</h1>
-            <p><strong>Step 1: Fork the Repository</strong></p>
-            <p>Start by creating your own copy of our GitHub repository:</p>
+            <p>Want to build a Local Story Finder for your city? Follow these steps to set it up.</p>
+
+            <h2>Step 1: Fork the Repository</h2>
+            <p>Go to our <a href="https://github.com/localjournalistfinder/localjournalistfinder.github.io" target="_blank">GitHub repository</a></p>
+            <p>Click "Fork"</p>
+            <p>Name your repository: <span class="highlight">[your-city]storyfinder.github.io</span></p>
+            <p>💡 Need help? See <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" target="_blank">GitHub’s guide on forking</a>.</p>
+
+            <h2>Step 2: Add Local News Outlets</h2>
+            <p>Edit <span class="highlight">check_sources.py</span> – Add news websites for your city.</p>
+            <p>Run <span class="highlight">check_sources.py</span> – It checks NewsAPI or RSS compatibility and saves them in <span class="highlight">sources.json</span>.</p>
+
+            <h2>Step 3: Get a NewsAPI Key</h2>
+            <p>Sign up at <a href="https://newsapi.org/" target="_blank">NewsAPI.org</a></p>
+            <p>Copy your API key</p>
+            <p>Add it as a GitHub repository secret:</p>
             <ul>
-                <li>Go to our GitHub repository</li>
-                <li>Click the "Fork" button in the top right corner</li>
-                <li>Name your repository "[your-city]storyfinder.github.io"</li>
-                <li>Need help? See GitHub's guide on how to fork a repository.</li>
+                <p>Go to <span class="highlight">Settings → Secrets and variables → Actions</span></p>
+                <p>Click "New repository secret"</p>
+                <p>Name: <span class="highlight">NEWSAPI_KEY</span></p>
+                <p>Value: Your API key</p>
             </ul>
-            <p><strong>Step 2: Update sources.json for Your City</strong></p>
-            <p>The sources.json file contains the list of news outlets to track. You'll need to update it with outlets from your city:</p>
-            <pre><code>{
-  "newsapi": [
-    "yourlocalexample.com",
-    "citynewsoutlet.com",
-    "localpaper.com"
-  ],
-  "rss": [
-    "communityvoice.org",
-    "neighborhoodnews.com"
-  ]
-}</code></pre>
-            <p>To find local news outlets in your area:</p>
+
+            <h2>Step 4: Fetch Articles</h2>
+            <p>Run <span class="highlight">fetch_articles.py</span> – This collects news articles and saves them in <span class="highlight">articles.json</span>.</p>
+            <p>Articles update automatically every day at 6 AM PT.</p>
+
+            <h2>Step 5: Generate Author Pages</h2>
+            <p>Run <span class="highlight">generate_author_pages.py</span> – This creates pages for each journalist.</p>
+            <p>Author pages update daily with new articles.</p>
+
+            <h2>Step 6: Customize Your Site</h2>
+            <p>Edit <span class="highlight">index.html</span> (title & description)</p>
+            <p>Update <span class="highlight">README.md</span> (your city’s info)</p>
+            <p>Adjust <span class="highlight">styles.css</span> (optional)</p>
+            <p>Modify <span class="highlight">about.html</span> (local journalism details)</p>
+
+            <h2>Step 7: Enable GitHub Pages & Actions</h2>
+            <p>Enable GitHub Pages:</p>
             <ul>
-                <li>Check Northwestern's State of Local News database</li>
-                <li>Look for news aggregator sites for your city</li>
-                <li>Search for "[your city] local news" to find outlets</li>
+                <p>Go to <span class="highlight">Settings → Pages</span></p>
+                <p>Under "Build and deployment" → "Source", select GitHub Actions</p>
             </ul>
-            <p><strong>Step 3: Get a NewsAPI Key</strong></p>
-            <p>To fetch articles from news outlets, you'll need a NewsAPI key:</p>
+            <p>Enable GitHub Actions:</p>
             <ul>
-                <li>Sign up for a free account at NewsAPI.org</li>
-                <li>Copy your API key from the dashboard</li>
-                <li>Add it as a repository secret in GitHub:</li>
-                <ul>
-                    <li>Go to your repository Settings → Secrets and variables → Actions</li>
-                    <li>Click "New repository secret"</li>
-                    <li>Name: NEWSAPI_KEY</li>
-                    <li>Value: Your NewsAPI key</li>
-                </ul>
+                <p>Go to the <span class="highlight">Actions</span> tab</p>
+                <p>If workflows are disabled, click "Enable workflows"</p>
             </ul>
-            <p>Created by Enkhjin Munkhbayar and Hannah Woodworth at Stanford University, March 2025.</p>
+            <p>Your site will be live at:  
+                <br>👉 <span class="highlight">https://[your-username].github.io/[your-repository-name]/</span>
+            </p>
+
+            <h2>Step 8: Share Your Local Story Finder</h2>
+            <p>✅ Done! Your Local Story Finder is live and updating daily.</p>
         </div>
     </main>
 

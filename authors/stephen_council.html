@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Council - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Stephen Council</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/tech/article/alx-oncology-layoffs-30-percent-20205012.php" target="_blank">Bay Area biotech firm once worth more than $4B lays off 30% of staff</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>ALX Oncology is laying off 30% of its staff, mainly in preclinical research, to redirect money toward clinical trials, including for the firm's lead candidate.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/tech/article/meta-raises-bonuses-after-layoffs-20180203.php" target="_blank">Bay Area tech giant Meta raises executive pay after laying off thousands of workers</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Bay Area tech giant Meta is raising the bonuses for its CFO, CTO, COO and CPO after laying off thousands of workers.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/sf-culture/article/san-francisco-party-chilis-20168582.php" target="_blank">I didn't know where to party in SF. So I called Chili's.</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>SFGATE's Fogcutter column highlights the best of San Francisco events. This week we hit up a skateboarding art exhibit, an AI film and a Super Bowl party.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/tech/article/bio-rad-laboratories-layoffs-hundreds-20168156.php" target="_blank">Bay Area biotech giant Bio-Rad to lay off hundreds after $1.8 billion loss</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Bio-Rad Laboratories is slashing 5% of its staff, including over 100 in its Bay Area hometown, amid struggles in the biotech industry.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/tech/article/getaround-shuts-down-layoffs-us-20166479.php" target="_blank">Bay Area tech company once worth $1.2B shuts down service, lays off almost entire US staff</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Getaround, a long-struggling Bay Area tech company with a car-sharing service, is laying off almost all of its U.S. staff and cutting service nationwide.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/cybertruck-crash-piedmont-alcohol-cocaine-20165879.php" target="_blank">Driver in deadly Bay Area Cybertruck crash had BAC of 0.195%, cocaine in system</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The three deceased from the Cybertruck crash in the Bay Area's Piedmont enclave in November had been drinking and using cocaine, toxicology reports show.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/sf-protest-federal-workers-warn-musk-plan-20164099.php" target="_blank">At San Francisco protest, federal workers warn that Musk plan will backfire</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>San Francisco workers for the Consumer Financial Protection Bureau protested Elon Musk's plan to axe the agency, as well as layoffs that have already begun.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

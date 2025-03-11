@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Marilynn - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>DJ Marilynn</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://kpoo.com/k-maxx-joins-his-ancestors" target="_blank">K-Maxx Joins His Ancestors</a></h3>
+                    <p class="source-name">kpoo.com</p>
+                    <p>The following statement was posted on K-Maxx’s Instagram account: “It is with profound sadness and a heavy heart that we share with you the news that Kenyan “K-Maxx” Hopkins suddenly and unexpectedly passed away on December 29, 2020. He was a brother, an amazing musician, and a cherished friend to all.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://kpoo.com/emmit-a-powell-1933-2018" target="_blank">Emmit A. Powell, 1933-2018</a></h3>
+                    <p class="source-name">kpoo.com</p>
+                    <p>It is with a heavy heart that we announce the passing of one of our own, Brother Emmit Powell.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://kpoo.com/bobbie-spider-webb" target="_blank">Bobbie “Spider” Webb Services</a></h3>
+                    <p class="source-name">kpoo.com</p>
+                    <p>It is with a heavy heart that we announce the passing of Bobbie Webb. Bobbie “Spider” Webb joined his ancestors on Friday, September 21, 2018.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

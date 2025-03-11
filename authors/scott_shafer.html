@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scott Shafer - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Scott Shafer</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030376/newsom-splits-with-democrats-on-trans-athletes-in-sports" target="_blank">Newsom Splits With Democrats on Trans Athletes in Sports</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>A new podcast by Gov. Gavin Newsom made national headlines this week when Newsom, a longtime supporter of LGBTQ rights, told his guest, right wing talk show host and social media influencer Charlie Kirk, that he thinks it’s unfair for transgender athletes to …</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030185/how-trump-2-0-has-embraced-project-2025" target="_blank">How Trump 2.0 Has Embraced Project 2025</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>During his campaign for president last year, Donald Trump consistently disavowed Project 2025, the right wing blueprint to remake the U.S. government. But since taking office, he’s been aggressively implementing many tenets of the controversial plan. Scott an…</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029706/homeless-shelters-rife-with-chaos-assaults-scandals-and-little-accountability" target="_blank">Homeless Shelters Rife With Chaos, Assaults, Scandals — and Little Accountability</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Emergency shelters are often the first stop for unhoused people living on the streets. But a new investigation by CalMatters found shelters are unsafe and unsuccessful at getting residents into permanent housing. Their comprehensive review of shelter performa…</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029096/barbara-lee-loren-taylor-square-off-in-oakland-mayoral-forum" target="_blank">Barbara Lee, Loren Taylor Square Off in Oakland Mayoral Forum</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Voters in Oakland will face a big decision in April. A special election will determine who will be the city’s mayor following the recall of Sheng Thao last year. The candidates include former Congressmember Barbara Lee and former City Councilmember Loren Tayl…</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

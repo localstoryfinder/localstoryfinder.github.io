@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marina Carlevaro - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Marina Carlevaro</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/bad-bunnys-debi-tirar-mas-fotos-a-powerful-tribute-to-puerto-rican-identity-and-resistance/" target="_blank">Bad Bunny’s DeBÍ TiRAR MáS FOToS: A Powerful Tribute to Puerto Rican Identity and Resistance</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Bad Bunny’s latest album, DeBÍ TiRAR MáS FOToS, is a bold tribute to Puerto Rican identity, culture, and resistance.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/meet-marce-la-recicladora-the-colombian-activist-using-social-media-to-transform-recycling/" target="_blank">Meet Marce la Recicladora: The Colombian Activist Using Social Media to Transform Recycling</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Meet Marce la Recicladora, created by Colombian activist Sara Samaniego to highlight Bogotá’s informal recyclers. Through social media, Marce educates on proper recycling, challenges stigmas, and inspires change, showing how small actions can turn trash into treasures and empower communities.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/7-must-watch-documentaries-that-celebrate-democracy-diversity-and-resilience-in-the-us/" target="_blank">7 Must-Watch Documentaries That Celebrate Democracy, Diversity, and Resilience in the US</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Explore 7 documentaries celebrating US diversity and resilience. From LGBTQIA+ representation to Latino immigration, these docs showcase civil rights, cultural icons, and changing demographics.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/a-decade-of-injustice-remembering-mexicos-missing-students-of-ayotzinapa-and-their-mothers-fight-for-truth/" target="_blank">A Decade of Injustice Remembering Mexico's Missing Students of Ayotzinapa and Their Mothers' Fight for Truth</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Ten years after 43 students from Ayotzinapa disappeared, their mothers continue a relentless search for justice. Stories of mothers like Cristina and Hilda reveal enduring hope and heartbreak.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/dia-de-muertos-where-to-celebrate-the-day-of-the-dead-in-the-us/" target="_blank">Día de Muertos: Where to Celebrate the Day of the Dead in the US</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Día de los Muertos is a beautiful reminder that those we’ve loved are never truly gone. Do you know where to celebrate with our community in the United States?
+
+Through colorful altars, music, and memories, we welcome their spirits back for a joyful reunion.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nico Madrigal-Yankowski - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Nico Madrigal-Yankowski</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/muni-sponsored-sf-beer-crawl-20180011.php" target="_blank">SF brewery and soccer club team up with Muni to create epic beer crawl</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Standard Deviant Brewing partnered with SFMTA and San Francisco City Football Club to create a citywide beer crawl for SF Beer Week.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/tyler-florence-abandons-sf-downtown-revitilization-20176385.php" target="_blank">Celebrity chef Tyler Florence abandons downtown SF cafes</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Tyler Florence closed a Union Square patisserie last weekend without any notice. One of SF's top bakeries stepped in.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/sf-doughnut-shop-ready-to-re-open-20173881.php" target="_blank">SF’s most popular doughnut shop announces opening date for new digs</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>SF's Nob Hill was always home to Bob's Donuts. After unsuccessfully negotiating a new lease at the original location, the new digs are finally ready to open.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/oakland-loses-fried-chicken-restaurant-matt-horn-20168474.php" target="_blank">Oakland loses a fried chicken restaurant from Matt Horn</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Matt Horn has closed his Oakland fried chicken restaurant after zoning code violations, an unpaid water bill and an ADA lawsuit.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/yelp-best-restaurant-hiding-near-tahoe-20151764.php" target="_blank">One of Yelp's best restaurants in America is hiding on the road to Tahoe</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Every year, Yelp releases a list of the top 100 restaurants in America. Wally's Cafe, ranked at No. 6, is located on the way to Tahoe in the town of Rocklin.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/food/article/in-n-out-2-headquarters-california-tennessee-20161785.php" target="_blank">In-N-Out slated to have 2 headquarters, 2,000 miles apart</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>In-N-Out announced its plans to close its Irvine headquarters and split its corporate offices between Baldwin Park and Tennessee by 2029.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

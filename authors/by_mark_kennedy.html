@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By MARK KENNEDY - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>By MARK KENNEDY</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/entertainment/article/wicked-choice-cynthia-erivo-will-host-the-tony-20175682.php" target="_blank">'Wicked' choice: Cynthia Erivo will host the Tony Awards in June</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>“Wicked” star Cynthia Erivo, who has been earning awards left and right, will next be handing them out. She’s been picked to be the host of the Tony Awards. Erivo has won a Grammy, Emmy and a Tony, as well as a Golden Globe, SAG Award and three Academy Award …</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/entertainment/article/movie-review-marvel-treads-water-with-captain-20163082.php" target="_blank">Movie Review: Marvel treads water with 'Captain America: Brave New World'</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Celebrate Valentine’s Day this year with “Captain America: Brave New World,” which Associated Press critic Mark Kennedy calls a highly processed, empty calorie, regret-later candy of a movie. The story gathers familiar Marvel characters and blends them into a…</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

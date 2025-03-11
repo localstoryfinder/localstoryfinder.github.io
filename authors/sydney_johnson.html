@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Johnson - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Sydney Johnson</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029619/luries-nonprofit-giving-san-francisco-11-million-prevent-family-homelessness" target="_blank">Lurie’s Nonprofit Is Giving San Francisco $11 Million to Prevent Family Homelessness</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Tipping Point Community, which Mayor Daniel Lurie founded before entering City Hall, will support a pilot program aimed at stemming a surge in family homelessness.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029456/supervisors-probe-san-franciscos-crackdown-outdoor-drug-use-dealing" target="_blank">Supervisors to Probe San Francisco’s Crackdown on Outdoor Drug Use and Dealing</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Police and supervisors say law enforcement crackdowns in some neighborhoods have displaced drug markets to other parts of the city.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029248/sf-police-commission-shake-up-lurie-taps-anti-violence-housing-activist" target="_blank">In SF Police Commission Shake-Up, Lurie Taps Anti-Violence and Housing Activist</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The San Francisco mayor’s nomination of Mattie Scott comes shortly after supervisors agreed to remove former commissioner Max Carter-Oberstone at his request.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028996/san-francisco-police-arrest-84-people-in-overnight-drug-market-raid-at-city-park" target="_blank">San Francisco Police Arrest 84 People in Overnight Drug Market Raid at City Park</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The morning after mass arrests at Jefferson Square Park, Mayor Daniel Lurie told reporters that sweeping drug arrests will continue.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028703/political-breakdown" target="_blank">SF Mayor Lurie Seeks to Reset Tense Ties With Board of Supervisors</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Mayor Daniel Lurie and members of the Board of Supervisors are trying to work across ideological lines to address some of the city’s most pressing problems.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028730/san-francisco-examine-co-op-model-pharmacies-across-city-shutter" target="_blank">San Francisco Will Examine Co-Op Model as Pharmacies Across the City Shutter</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Supervisor Jackie Fielder requested the Budget and Legislative Analyst’s office this week to investigate pharmacy closures and methods for streamlining prescription procurement.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

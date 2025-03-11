@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima Camacho - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Fatima Camacho</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/meet-the-latinas-over-50-inspiring-a-new-era-of-beauty-and-self-love/" target="_blank">Meet the Latinas Over 50 Inspiring a New Era of Beauty and Self-Love</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Latinas over 50 are leading the pro-age revolution, redefining beauty and confidence with style. From cincuentañera celebrations to embracing gray hair and breaking stereotypes, these mujeres prove that life after 50 is just getting started.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/how-black-and-latina-union-leaders-are-reshaping-the-fight-for-workers-rights/" target="_blank">How Black and Latina Union Leaders Are Reshaping the Fight for Workers' Rights</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Black and Latina women are stepping into powerful union leadership roles however with the rollback of DEI efforts, how will this impact union employees women of color?</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/latina-jewelry-designers-revolutionizing-style-and-culture/" target="_blank">Latina Jewelry Designers Revolutionizing Style and Culture</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Latina and Afro-Latina jewelry designers blend culture, identity, and artistry into stunning pieces that honor heritage and redefine luxury. From handmade designs to modern elegance, these brands tell stories that inspire and empower.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/latinas-in-law-enforcement-are-building-trust-in-the-communities/" target="_blank">Latinas in Law Enforcement Are Building Trust in the Communities</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Latina police officers are transforming law enforcement, breaking barriers with just 13.8% female representation. These resilient women bring cultural insight, empathy, and leadership, challenging stereotypes while building stronger, more trusting community connections.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/election-2024-whats-at-stake-for-u-s-latinas/" target="_blank">Election 2024: What’s at Stake for U.S. Latinas</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Latina voters play a crucial role in the 2024 U.S. election, key issues at stake: abortion rights, affordable housing, and immigration policies.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

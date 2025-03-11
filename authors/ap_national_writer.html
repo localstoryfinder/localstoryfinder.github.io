@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP National Writer - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>AP National Writer</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/entertainment/article/jerry-ice-man-butler-soul-singer-whose-hits-20179880.php" target="_blank">Jerry 'Ice Man' Butler, soul singer whose hits included 'Only the Strong Survive,' dies at 85</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Jerry Butler, a premier soul singer whose rich, steady baritone graced such hits as "For Your Precious Love," "Only the Strong Survive" and "Make It Easy On Yourself," has died at age 85. Butler’s niece, Yolanda Goff, told The Associated Press that Butler die…</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/entertainment/article/hello-eric-it-s-oprah-author-eric-puchner-is-20172976.php" target="_blank">'Hello, Eric, it's Oprah.' Author Eric Puchner is latest member of Winfrey book club</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Eric Puchner is a well-regarded fiction writer whose new novel, “Dream State,” tells a story about life’s unexpected and improbable plot twists. Weeks before the book’s release, Puchner himself received some surprising and very welcome news, from Oprah Winfre…</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

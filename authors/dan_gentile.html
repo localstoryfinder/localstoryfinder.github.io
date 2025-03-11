@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Gentile - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Dan Gentile</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/sf-culture/article/music-festival-noise-pop-sf-20173999.php" target="_blank">Music festival takes over nearly 20 venues across San Francisco</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Noise Pop Festival takes over multiple San Francisco venues with performances from the likes of Benjamin Gibbard, Earl Sweatshirt and more.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/sf-culture/article/utah-ski-town-sundance-leaving-park-city-20166445.php" target="_blank">'Please don't leave': The $132 million problem facing a Utah ski town</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Park City, Utah, braces for the departure of the Sundance Film Festival. The economic impact could be devastating.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/sf-culture/article/san-francisco-party-chilis-20168582.php" target="_blank">I didn't know where to party in SF. So I called Chili's.</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>SFGATE's Fogcutter column highlights the best of San Francisco events. This week we hit up a skateboarding art exhibit, an AI film and a Super Bowl party.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/sf-culture/article/dave-chappelle-san-francisco-snl-20168400.php" target="_blank">Dave Chappelle tells San Francisco audience that 'SNL' censored him politically</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>At the first of a series of impromptu sold-out shows in San Francisco, comedian Dave Chappelle shared the two things that "SNL" told him he couldn't talk about.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

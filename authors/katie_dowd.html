@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katie Dowd - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Katie Dowd</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/sf-culture/article/snl-star-returns-debut-elon-musk-20197566.php" target="_blank">'Saturday Night Live' star returns to debut as Elon Musk</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>“Saturday Night Live” welcomed back former star Mike Myers to debut his latest impression: Department of Government Efficiency head Elon Musk.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/army-vet-admits-killing-california-girl-20178471.php" target="_blank">Calif. Army vet admits to killing kindergartner who vanished on walk to school</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Five-year-old Anne Pham was killed on her walk to school in Seaside, California, in the 1980s.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/woman-killed-bay-area-park-police-suspect-20174288.php" target="_blank">A woman was killed while jogging at a busy Bay Area park. Now police have a suspect.</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Maria Jane Weidhofer was 32 when she was sexually assaulted and strangled at Tilden Park in the East Bay.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/jack-ziz-lasota-arrested-no-bail-zizians-20173487.php" target="_blank">'An extremist group': Bay Area fringe group leader held without bail</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The leader of the fringe group of Berkeley radicals appeared in a Maryland courtroom Tuesday and was ordered to be held without bail.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/teen-killed-fight-bay-area-shopping-mall-20171962.php" target="_blank">15-year-old killed in fight at Bay Area shopping mall, police say</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>A teenager died after a fight at Santana Row on Valentine’s Day, San Jose police said. A search for suspects is underway.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/california-man-to-catch-a-predator-police-custody-20171862.php" target="_blank">California man filmed on 'To Catch a Predator' back in police custody</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>A man who was once filmed on “To Catch a Predator” is back in police custody after allegedly assaulting a child.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/missing-california-woman-identified-body-pond-20170953.php" target="_blank">Missing California woman, 29, identified as body found in a pond</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Last week, Othram announced investigators used their leads to hone in on the woman’s identity: Jaymie Renee West.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/tech/article/elizabeth-holmes-still-isnt-sorry-20170688.php" target="_blank">Elizabeth Holmes still isn't sorry</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>In a recent interview from federal prison, disgraced Theranos founder Elizabeth Holmes made one thing apparent.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/new-details-bay-area-zizians-death-cult-20165754.php" target="_blank">Strange new details emerge about the Bay Area Zizian 'death cult'</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>A sprawling web of violence across America has been linked to a fringe group of radical Berkeley pseudo-intellectuals known as the Zizians.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

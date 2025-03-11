@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Marks - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>David Marks</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029015/us-judge-in-san-francisco-will-hear-union-request-to-halt-trump-mass-firings" target="_blank">US Judge in San Francisco Will Hear Union Request to Halt Trump Mass Firings</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Labor unions will argue at a Thursday hearing that Trump officials lack the authority to order terminations of probationary federal employees and that notices to workers were premised on a lie of poor job performance.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028741/rare-video-captures-super-pod-of-2000-dolphins-breaching-playing-off-monterey-coast" target="_blank">Rare Video Captures Super Pod of 2,000 Dolphins Breaching, Playing Off Monterey Coast</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>A Monterey Bay boat captain captured rare video of the super pod, including the more elusive northern right whale dolphin.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

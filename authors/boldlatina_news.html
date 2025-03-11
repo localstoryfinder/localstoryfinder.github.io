@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoldLatina News - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>BoldLatina News</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/latino-films-at-sundance-2025-movies-documentaries-and-shorts/" target="_blank">Latino Films at Sundance 2025: Movies, Documentaries, and Shorts</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>Our top Latino films, documentaries, and short films showcased at Sundance 2025. Explore must-watch movies from Latine filmmakers, including Kiss of the Spider Woman, Selena y Los Dinos, and more.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/trumps-sweeping-executive-orders-what-they-mean-for-our-latino-community-2/" target="_blank">Trump's Sweeping Executive Orders: What They Mean For Latinos</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>On his first day back as president, Donald Trump signed 46 executive orders shaping immigration, citizenship, and cultural identity. BoldLatina examines the policies threatening the Latino community.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/2025-immigration-enforcement-under-trump-policies-rights-and-community-support-for-undocumented-immigrants/" target="_blank">2025 Immigration Enforcement Under Trump: Policies, Rights, and Community Support for Undocumented Immigrants</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>The latest updates on Trump’s immigration policies in 2025, including the Laken Riley Act, increased ICE raids, and changes to sanctuary city protections. Learn about legal rights for undocumented immigrants and resources for advocacy and support.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://boldlatina.com/boldlatinas-top-10-of-2024-must-read-articles-by-and-for-latinas/" target="_blank">BoldLatina’s Top 10 of 2024: Must-Read Articles By and For Latinas</a></h3>
+                    <p class="source-name">boldlatina.com</p>
+                    <p>From stories that celebrate our resilience to insights that inspire our growth, BoldLatina’s Top 10 articles of 2024 are a tribute to everything by and for Latinas. Dive into the pieces that made an impact this year crafted with our voices, our experiences, and our future in mind.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

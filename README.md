@@ -1,18 +1,17 @@
-# San Francisco's Local Journalist Finder
+# San Francisco's Local Story Finder
 
 **[Visit the Live Site](https://localjournalistfinder.github.io/)**
 
 ## Overview
-The Local Journalist Finder is a tool designed to help readers discover local journalists covering the San Francisco Bay Area. By aggregating content from multiple local news sources via NewsAPI and RSS feeds, the platform provides a searchable database of articles that can be filtered by author, publication, or topic.
+The Local Story Finder is a tool designed to help readers discover local journalists covering the San Francisco Bay Area. By aggregating content from multiple local news sources via NewsAPI and RSS feeds, the platform provides a searchable database of articles that can be filtered by author, publication, or topic.
 
 ## Background
 People trust local news more than any other kind—and for good reason. Local journalism keeps communities informed, connected, and engaged. In fact, 85% of Americans say local news is at least somewhat important to their community, with nearly half calling it extremely or very important. San Francisco is home to a thriving local news scene, powered by curious, dedicated journalists. We built a tool to make it easier to find them.
 
 By centralizing access to content from local news outlets, this project aims to:
 1. Make local journalism more discoverable
-2. Help readers follow specific local journalists # Delete maybe
-3. Highlight the work of smaller news outlets
-4. Promote awareness of local news sources
+2. Highlight the work of smaller news outlets
+3. Promote awareness of local news sources
 
 ## Features
 - **Automatic Content Aggregation**: Daily updates from both NewsAPI and RSS feeds
@@ -72,7 +71,7 @@ This project currently aggregates content from the following sources:
 
 2. Install required packages
    ```
-   pip install requests feedparser beautifulsoup4 jinja2 # Delete jinja2 maybe
+   pip install requests feedparser beautifulsoup4 jinja2 
    ```
 
 3. Set up your NewsAPI key as an environment variable
@@ -105,7 +104,7 @@ The site automatically deploys to GitHub Pages when changes are pushed to the ma
 Enkhjin Munkhbayar and Hannah Woodworth at Stanford University, March 2025.
 
 ## Acknowledgments
+- All the journalists and news outlets continuing to provide vital local coverage in the San Francisco Bay Area
 - Local news outlet list in San Francisco is from Northwestern University's [State of Local News Project](https://localnewsinitiative.northwestern.edu/projects/state-of-local-news/)
 - Statistics on local news importance from Pew Research Center's [Americans' Changing Relationship With Local News](https://www.pewresearch.org/journalism/2024/05/07/americans-changing-relationship-with-local-news/)
 - NewsAPI for providing access to major news outlets
-- All the journalists and news outlets continuing to provide vital local coverage in the San Francisco Bay Area

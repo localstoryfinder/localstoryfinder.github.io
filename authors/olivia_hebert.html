@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Hebert - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Olivia Hebert</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/bay-area-teen-hit-and-run-pursuit-20200458.php" target="_blank">Bay Area teen's pursuit of hit-and-run driver ends in injuries</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>A teenager's pursuit of a hit-and-run driver ends with pedestrians injured and himself in jail.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/bart-delays-san-francisco-20187145.php" target="_blank">Major BART delays hit San Francisco after emergency at Civic Center</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>After a medical emergency at Civic Center, San Francisco commuters saw major BART delays.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/berkeley-alta-bates-emeryville-replacement-20180635.php" target="_blank">Billion-dollar Emeryville hospital set to replace Alta Bates as emergency center</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>A new billion-dollar medical campus in Emeryvillle is set to replace Berkeley's Alta Bates Summit Medical Center.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/weather/article/bay-area-dry-weather-forecast-20179845.php" target="_blank">Bay Area in for a dry spell before likely March showers</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The Bay Area is set to experience some light showers over the weekend before a dry spell next week.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/federal-workers-protest-elon-musk-doge-20178455.php" target="_blank">Protests against Elon Musk and mass layoffs spread across California</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Federal workers and labor leaders united to protest the actions of Elon Musk and the Trump administration.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/moss-landing-fire-reignites-20176063.php" target="_blank">After Moss Landing Power Plant reignites, officials brace for more flare-ups</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Another fire broke out at the Moss Landing Power Plant weeks after a fire there burned for days in January.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/bayarea/article/australian-woman-arrested-meth-sfo-20173613.php" target="_blank">Tip-off led to Australian woman's 44-pound SFO meth bust, DA says</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>An Australian woman was arrested at SFO after a random luggage search for smuggling 44-pounds of meth in her luggage, officials said.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/weather/article/snowfall-atmospheric-river-surge-20163014.php" target="_blank">Bay Area wakes to rare snowfall as a surging atmospheric river moves in</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>Snowfall hits the Bay Area's highest peaks just as an atmospheric river surges in the region.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.sfgate.com/weather/article/atmospheric-river-hits-bay-area-flash-flooding-20160747.php" target="_blank">Flash floods and 30-foot waves: Bay Area braces for another atmospheric river</a></h3>
+                    <p class="source-name">SFGate</p>
+                    <p>The Bay Area is facing another atmospheric river event, with flash floods and thunderstorms on the horizon.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

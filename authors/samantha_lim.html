@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samantha Lim - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Samantha Lim</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030325/dog-bites-foam-bullets-and-fear-victims-testify-to-ex-antioch-officers-excessive-force" target="_blank">Dog Bites, Foam Bullets and Fear: Victims Testify to Ex-Antioch Officers’ Excessive Force</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Several people took the stand this week in a major Bay Area police corruption trial to describe being subjected to excessive force by former Antioch police officers.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030234/ex-antioch-officer-testifies-against-former-partner-in-federal-civil-rights-case" target="_blank">Ex-Antioch Officer Testifies Against Former Partner in Federal Civil Rights Case</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Eric Rombough confessed to exchanging racist text messages with another officer, which he said reflected his changing attitudes toward the people in the East Bay city.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029643/bay-area-police-conspiracy-trial-shaken-up-by-mistrial-for-1-of-2-former-officers" target="_blank">Bay Area Police Conspiracy Trial Shaken Up by Mistrial for 1 of 2 Former Officers</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>A federal judge in Oakland declared a mistrial in the case against one of the two former Antioch police officers charged with conspiring to violate civil rights by using excessive force.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029195/border-patrol-slashed-tires-dragged-people-from-cars-bakersfield-raids-aclu-says" target="_blank">Border Patrol Slashed Tires, Dragged People From Cars in Bakersfield Raids, ACLU Says</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The January raids, which rattled Central Valley farmworkers ahead of President Trump’s inauguration, included illegal, discriminatory stops and coercive deportations, a new lawsuit alleges.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029016/stanford-freezes-staff-hiring-as-it-braces-for-possible-federal-funding-cuts" target="_blank">Stanford Freezes Staff Hiring as it Braces for Possible Federal Funding Cuts</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>University officials cited a Trump administration attempt to slash funding for research institutions as well as threats by congressional Republicans to increase the endowment tax.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028726/reformist-sf-police-commissioner-is-ousted-giving-lurie-greater-control-of-oversight" target="_blank">Reformist SF Police Commissioner Is Ousted, Giving Lurie Greater Control of Oversight</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>San Francisco supervisors voted to remove Max Carter-Oberstone from the Police Commission at Mayor Daniel Lurie’s request.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

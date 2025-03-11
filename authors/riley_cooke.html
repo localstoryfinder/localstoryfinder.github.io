@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riley Cooke - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Riley Cooke</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030271/stanford-journalist-can-finally-breathe-after-avoiding-charges-for-reporting-on-protest" target="_blank">Stanford Journalist Can ‘Finally Breathe’ After Avoiding Charges for Reporting on Protest</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The Santa Clara County DA said Thursday that he won’t pursue charges against Dilan Gohill, who was arrested nine months ago while covering a pro-Palestinian protest.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029289/stanford-appears-set-ban-trans-athletes-womens-sports-following-ncaa" target="_blank">Stanford Appears Set to Ban Trans Athletes From Women’s Sports, Following NCAA</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The move comes after the NCAA changed its rules in response to a President Trump executive order. It’s not clear whether Stanford has any transgender athletes on women’s teams.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028120/election-first-how-oakland-berkeley-youth-turned-out" target="_blank">After Election 1st, Here’s How Oakland and Berkeley Youth Turned Out</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Nearly 1,500 youth voters were registered by Election Day in Berkeley and Oakland, with about a third casting ballots.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

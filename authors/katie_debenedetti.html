@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katie DeBenedetti - SF Local Journalist Finder</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Center the results container */
+        .results {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers the cards horizontally */
+            width: 100%;
+        }
+
+        /* Ensure result items match the main search page */
+        .result-item {
+            width: 80%; /* Ensure they are not too wide */
+            max-width: 600px; /* Keep consistent width */
+            text-align: left; /* Left-align text inside */
+            padding: 1rem;
+            border: 1px solid var(--indigo);
+            border-radius: 8px;
+            background-color: var(--light-gray);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 1rem;
+        }
+
+        /* Hover effect for consistency */
+        .result-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Center the title */
+        .search-container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="menu-btn">☰</button>
+        <nav class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="methodology.html">Create Your Own</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <h2>San Francisco's</h2>
+            <h1>Katie DeBenedetti</h1>
+
+            <div class="results">  <!-- This ensures all cards are centered -->
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030157/supervisors-aim-to-finalize-coliseum-sale-offering-hope-for-oaklands-budget-woes" target="_blank">Supervisors Aim to Finalize Coliseum Sale, Offering Hope for Oakland’s Budget Woes</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The development project from the African American Sports and Entertainment Group has been in the works since May.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12030028/trump-cut-education-grants-over-dei-it-will-worsen-teacher-shortages-lawsuit-says" target="_blank">Trump Cut Education Grants Over ‘DEI.’ It Will Worsen Teacher Shortages, Lawsuit Says</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>California and seven other states are suing the Department of Education over the termination of $600 million in grants used to train teachers and nonprofits nationwide.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029791/sfs-mission-district-uncertainty-around-trumps-tariffs-shop-owners-edge" target="_blank">In SF’s Mission District, Uncertainty Around Trump’s Tariffs Has Shop Owners on Edge</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The back-and-forth over tariffs on imports from Mexico has rattled many San Francisco small businesses that sell handmade goods, clothes, food and other items.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029839/san-franciscos-presidio-trust-defends-existence-response-trump-order" target="_blank">San Francisco’s Presidio Trust Defends its Existence in Response to Trump Order</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The federal agency that operates San Francisco’s Presidio was required to submit a report on its operations after being targeted by an executive order to shrink several agencies.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029675/niman-ranch-challenges-point-reyes-seashore-settlement-in-lawsuit-over-ranching" target="_blank">Niman Ranch Challenges Point Reyes Seashore Settlement in Lawsuit Over Ranching</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>One of California’s largest ranches filed a lawsuit against the park service, advocating for regenerative farming at Point Reyes Seashore to preserve wildlife and the environment.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029333/oaklands-school-board-long-been-disarray-is-it-turning-corner" target="_blank">Oakland’s School Board Has Long Been in Disarray. Is It Turning a Corner?</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>As the Oakland school board takes steps to deal with a $95 million budget deficit, some education officials feel it’s finally coming together. But infighting is far from gone.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029499/oakland-halts-plan-close-4-fire-stations-amid-budget-crisis" target="_blank">Oakland Halts Plan to Close 4 Fire Stations Amid Budget Crisis</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Oakland’s total projected budget deficit shrunk to about $89 million, allowing reversals on fire station closures and planned staffing cuts in city departments.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029441/california-weather-colder-rainier-after-hint-spring" target="_blank">California Weather to Get Colder and Rainier After a Hint of Spring</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>Rain is dotting the forecast for the Bay Area and other parts of the state, but monitoring it could be more difficult after a weather service radar went down.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12029001/oakland-school-board-approves-over-100-layoffs-a-day-after-similar-vote-in-sf" target="_blank">Oakland School Board Approves Over 100 Layoffs, a Day After Similar Vote in SF</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The Oakland school district is grappling with a $95 million budget shortfall and a looming threat of financial insolvency, mirroring the issues San Francisco is also facing.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028957/highway-101-big-rig-crash-will-close-lanes-for-hours-and-disrupt-caltrain" target="_blank">Highway 101 Big-Rig Crash Will Close Lanes for Hours and Disrupt Caltrain</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>The early morning crash spilled 160 gallons of diesel fuel on the freeway and sent debris into nearby high-voltage power lines, cutting power to Caltrain.</p>
+                </div>
+                
+                <div class="result-item">
+                    <h3><a href="https://www.kqed.org/news/12028317/sf-schools-brace-hundreds-layoffs-including-teachers-librarians-counselors" target="_blank">SF Schools Brace for Hundreds of Layoffs, Including Teachers, Librarians and Counselors</a></h3>
+                    <p class="source-name">KQED</p>
+                    <p>San Francisco’s school board approved a plan to send preliminary layoff notices to 559 employees, although the final number is likely to be lower.</p>
+                </div>
+                
+            </div>
+            
+            <p><a href="../index.html">Back to Home</a></p>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
