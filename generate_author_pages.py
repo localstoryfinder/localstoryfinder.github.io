@@ -53,9 +53,9 @@ AUTHOR_TEMPLATE = """<!DOCTYPE html>
     <header>
         <button class="menu-btn">☰</button>
         <nav class="dropdown-menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="methodology.html">Create Your Own</a>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../methodology.html">Create Your Own</a>
         </nav>
     </header>
     
