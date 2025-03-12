@@ -283,3 +283,12 @@ main {
     font-family: 'Courier New', Courier, monospace;
     color: var(--highlight);
 }
+
+.intro-text {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #555; /* Adjust the color as needed */
+    margin-top: 5px; /* Reduce the top margin of the intro text */
+    margin-bottom: 30px; /* Adjust the bottom margin as needed */
+    text-align: center; /* Center the text */
+    font-style: italic; /* Make the text italic */
+  }
