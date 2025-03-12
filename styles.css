@@ -178,9 +178,10 @@ main {
 }
 
 /* Style for each result item */
+
 .result-item {
-    width: 80%;
-    max-width: 600px;
+    width: 80%; /* Ensure they are not too wide */
+    max-width: 600px; /* Keep consistent width */
     margin-bottom: 1rem;
     padding: 1rem;
     border: 1px solid var(--indigo);
@@ -188,7 +189,7 @@ main {
     background-color: var(--light-gray);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: transform 0.2s, box-shadow 0.2s;
-    text-align: left; /* Left-align content */
+    text-align: left; /* Left-align text inside */
 }
 
 /* Hover effect for each result item */
@@ -200,25 +201,44 @@ main {
 /* Style for the headings inside each result item */
 .result-item h3 {
     font-size: 1.2rem;
-    color: var (--dark-gray);
+    color: var(--dark-gray);
 }
 
 /* Style for the paragraphs inside each result item */
 .result-item p {
     margin: 0.5rem 0;
-    color: var (--dark-gray);
+    color: var(--dark-gray);
+    font-size: 1rem; /* Set the font size to match the author pages */
+}
+
+/* Additional styles for specific elements */
+.result-item .title {
+    font-weight: bold;
+    color: var(--indigo); /* Change the font color for the title */
+}
+
+.result-item .title a {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    color: var(--indigo); /* Ensure the link color matches the title color */
+}
+
+.result-item .author {
+    font-style: italic;
+    color: var(--indigo); /* Change the font color for the author */
+}
+
+.result-item .source {
+    color: var(--indigo); /* Change the font color for the source */
 }
 
 /* Style for the links inside each result item */
 .result-item a {
-    color: var(--indigo);
-    text-decoration: underline; /* Make link more clearly clickable */
-    font-weight: bold;
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
 }
 
-/* Hover effect for the links inside each result item */
 .result-item a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Ensure text alignment for the about-container */
