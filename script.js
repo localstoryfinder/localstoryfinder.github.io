@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.querySelector(".search-input");
   const resultsContainer = document.querySelector(".results");
   const menuBtn = document.querySelector(".menu-btn");
@@ -25,69 +25,69 @@ document.addEventListener("DOMContentLoaded", async () => {
     dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
   });
   
-  // Fetch the JSON data
-  let data = [];
-  try {
-    const response = await fetch("articles.json");
-    data = await response.json();
-  } catch (error) {
-    console.error("Error loading JSON data:", error);
-    return;
-  }
-  
-  // Initialize Fuse.js
-  const fuse = new Fuse(data, {
-    keys: ["author", "source.name", "title", "description"],
-    threshold: 0.3
-  });
-  
-  // Create author page URLs
-  function getAuthorPageUrl(authorName) {
-    if (!authorName) return null;
-    return "authors/" + authorName.replace(/ /g, "_").replace(/\//g, "_").replace(/\\/g, "_").toLowerCase() + ".html";
-  }
+  // Fetch articles data from articles.json
+  fetch('articles.json')
+    .then(response => response.json())
+    .then(articles => {
+      // Initialize Fuse.js
+      const fuse = new Fuse(articles, {
+        keys: ["title", "author", "source.name"],
+        threshold: 0.3
+      });
 
-  // Include author links
-  function renderResults(results) {
-    resultsContainer.innerHTML = "";
-    if (results.length === 0) {
-      resultsContainer.innerHTML = "<p>No results found.</p>";
-      return;
-    }
-    
-    results.forEach(({ item }) => {
-      const resultItem = document.createElement("div");
-      resultItem.classList.add("result-item");
-      
-      // Format the source name
-      const sourceName = getSourceName(item.source);
-      
-      // Get author link
-      const authorName = item.author || "Unknown Author";
-      const authorLink = authorName !== "Unknown Author" ? getAuthorPageUrl(authorName) : null;
-      
-      // Create author HTML 
-      const authorHTML = authorLink 
-        ? `<h3 class="author-name"><a href="${authorLink}">${authorName}</a></h3>`
-        : `<h3 class="author-name">${authorName}</h3>`;
-      
-      resultItem.innerHTML = `
-        ${authorHTML}
-        <p class="source-name">${sourceName}</p>
-        <p><a href="${item.url}" target="_blank">${item.title}</a></p>
-      `;
-      resultsContainer.appendChild(resultItem);
-    });
-  }
-  
-  // Search as the user types
-  searchInput.addEventListener("input", () => {
-    const query = searchInput.value.trim();
-    if (query.length > 0) {
-      const results = fuse.search(query);
-      renderResults(results);
-    } else {
-      resultsContainer.innerHTML = "";
-    }
-  });
+      // Create author page URLs
+      function getAuthorPageUrl(authorName) {
+        if (!authorName) return null;
+        return "authors/" + authorName.replace(/ /g, "_").replace(/\//g, "_").replace(/\\/g, "_").toLowerCase() + ".html";
+      }
+
+      // Function to render search results
+      function renderSearchResults(results) {
+        resultsContainer.innerHTML = ''; // Clear previous results
+
+        results.forEach(result => {
+          const resultItem = document.createElement('div');
+          resultItem.classList.add('result-item');
+
+          // Create and append the title element with link
+          const titleElement = document.createElement('p');
+          titleElement.classList.add('title');
+          const titleLink = document.createElement('a');
+          titleLink.href = result.item.url; // Set the href attribute
+          titleLink.textContent = result.item.title;
+          titleElement.appendChild(titleLink);
+          resultItem.appendChild(titleElement);
+
+          // Create and append the author element with link
+          const authorElement = document.createElement('p');
+          authorElement.classList.add('author');
+          const authorLink = document.createElement('a');
+          authorLink.href = getAuthorPageUrl(result.item.author);
+          authorLink.textContent = result.item.author;
+          authorElement.appendChild(authorLink);
+          resultItem.appendChild(authorElement);
+
+          // Create and append the source element with link
+          const sourceElement = document.createElement('p');
+          sourceElement.classList.add('source');
+          sourceElement.textContent = result.item.source.name;
+          resultItem.appendChild(sourceElement);
+
+          // Append the result item to the results container
+          resultsContainer.appendChild(resultItem);
+        });
+      }
+
+      // Search as the user types
+      searchInput.addEventListener("input", () => {
+        const query = searchInput.value.trim();
+        if (query.length > 0) {
+          const results = fuse.search(query);
+          renderSearchResults(results);
+        } else {
+          resultsContainer.innerHTML = "";
+        }
+      });
+    })
+    .catch(error => console.error('Error fetching articles:', error));
 });
