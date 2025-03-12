@@ -66,15 +66,15 @@ document.addEventListener("DOMContentLoaded", async () => {
       const authorName = item.author || "Unknown Author";
       const authorLink = authorName !== "Unknown Author" ? getAuthorPageUrl(authorName) : null;
       
-      // Create author and source HTML
+      // Create author HTML 
       const authorHTML = authorLink 
-        ? `<span class="author-name"><a href="${authorLink}">${authorName}</a></span>`
-        : `<span class="author-name">${authorName}</span>`;
-      const sourceHTML = `<span class="source-name">${sourceName}</span>`;
-
+        ? `<h3 class="author-name"><a href="${authorLink}">${authorName}</a></h3>`
+        : `<h3 class="author-name">${authorName}</h3>`;
+      
       resultItem.innerHTML = `
-        <p class="result-text"><a href="${item.url}" target="_blank">${item.title}</a></p>
-        <p class="result-text">${authorHTML} &nbsp;&nbsp; ${sourceHTML}</p>
+        ${authorHTML}
+        <p class="source-name">${sourceName}</p>
+        <p><a href="${item.url}" target="_blank">${item.title}</a></p>
       `;
       resultsContainer.appendChild(resultItem);
     });
