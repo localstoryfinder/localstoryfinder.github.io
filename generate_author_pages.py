@@ -17,7 +17,7 @@ AUTHOR_TEMPLATE = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ author }} - SF Local Journalist Finder</title>
+    <title>{{ author }} - SF Local Story Finder</title>
     <link rel="stylesheet" href="../styles.css">
     <style>
         /* Center the results container */
