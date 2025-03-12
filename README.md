@@ -107,4 +107,4 @@ Enkhjin Munkhbayar and Hannah Woodworth at Stanford University, March 2025.
 - All the journalists and news outlets continuing to provide vital local coverage in the San Francisco Bay Area
 - Local news outlet list in San Francisco is from Northwestern University's [State of Local News Project](https://localnewsinitiative.northwestern.edu/projects/state-of-local-news/)
 - Statistics on local news importance from Pew Research Center's [Americans' Changing Relationship With Local News](https://www.pewresearch.org/journalism/2024/05/07/americans-changing-relationship-with-local-news/)
-- NewsAPI for providing access to major news outlets
+- NewsAPI for providing access to news outlets
