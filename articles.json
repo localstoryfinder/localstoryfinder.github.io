@@ -2,6 +2,105 @@
     {
         "source": {
             "id": null,
+            "name": "SFGate"
+        },
+        "author": "Matt LaFever",
+        "title": "'Collateral damage': California ranchers feel powerless in wolf country",
+        "description": "A rogue wolf's killing spree in Southern Oregon ends as attacks on Modoc County livestock rise, leaving ranchers vulnerable under strict laws.",
+        "url": "https://www.sfgate.com/northcoast/article/california-ranchers-feel-powerless-wolf-country-20200449.php",
+        "publishedAt": "2025-03-15T11:22:43+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Carlos Cabrera-Lomel\u00ed",
+        "title": "Missed the 3rd Stimulus Check? Tax Day 2025 Is Your Last Chance to Claim It",
+        "description": "The deadline to claim the $1,400 stimulus check is fast approaching. Tax Day 2025, which is April 15, is the last day to file your 2021 tax return.",
+        "url": "https://www.kqed.org/news/12030754/tax-day-2025-is-your-last-chance-to-claim-a-3rd-stimulus-check",
+        "publishedAt": "2025-03-15T11:00:12+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Joseph Geha",
+        "title": "South Bay Public Medical Workers Planning Strike Over Contract Talks",
+        "description": "Hundreds of South Bay lab scientists and technicians are threatening to strike over what they say are bad faith negotiations by Santa Clara County.",
+        "url": "https://www.kqed.org/news/12031392/south-bay-public-medical-workers-planning-strike-over-contract-talks",
+        "publishedAt": "2025-03-15T00:02:35+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Scott Shafer",
+        "title": "What\u2019s Katie Porter\u2019s Lane in the 2026 Governor Race?",
+        "description": "A much anticipated entry into the 2026 governor\u2019s race is making waves in California. Feisty Orange County Democrat and former congress member Katie Porter jumped into an already-crowded field this week, shaking up a race where President Trump looms large. An\u2026",
+        "url": "https://www.kqed.org/news/12031451/whats-katie-porters-lane-in-the-2026-governor-race",
+        "publishedAt": "2025-03-15T00:00:55+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Oakland Special Election: District 2 Debate",
+        "description": "A coalition of Oakland transportation advocates get the skinny on District 2 candidates\nThe post Oakland Special Election: District 2 Debate appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/14/oakland-special-election-district-2-debate",
+        "publishedAt": "2025-03-14T23:04:11+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, March 14",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, March 14 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/14/headlines-march-14-2",
+        "publishedAt": "2025-03-14T15:16:58+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Streetsblog",
+        "title": "Video: Welcome to the War on \u2018Woke\u2019 Transportation",
+        "description": "Overwhelmed by weeks of federal attacks on green and equitable transportation? Catch up with this explainer and plug in to the fight. The post Video: Welcome to the War on \u2018Woke\u2019 Transportation appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/03/14/friday-video-welcome-to-the-war-on-woke-transportation",
+        "publishedAt": "2025-03-14T04:02:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Damien Newton",
+        "title": "Draft State Highway System Management Plan Urges State to Move Away from Gas Tax or Face Funding Shortfalls",
+        "description": "The Draft State Highway System Management Plan (SHSMP) provides a ten-year prediction of statewide transportation funding needs\nThe post Draft State Highway System Management Plan Urges State to Move Away from Gas Tax or Face Funding Shortfalls appeared first on Streetsblog California. The post Draft State Highway System Management Plan Urges State to Move Away from Gas Tax or Face Funding Shortfalls appeared first on Streetsblog San Francisco.",
+        "url": "https://cal.streetsblog.org/2025/03/13/draft-state-highway-system-management-plan-urges-state-to-move-away-from-gas-tax-or-face-funding-shortfalls",
+        "publishedAt": "2025-03-13T22:05:08+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Jeff Wood",
+        "title": "Talking Headways Podcast: The Annual Yonah Freemark Show, Part II",
+        "description": "Yonah Freemark of the Urban Institute is back again for Part II of his annual \"Talking Headways\" discussion. The post Talking Headways Podcast: The Annual Yonah Freemark Show, Part II appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/03/13/talking-headways-podcast-the-annual-yonah-freemark-show-part-ii-2",
+        "publishedAt": "2025-03-13T18:44:56+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "KQED"
         },
         "author": "Rachael Myrow",
