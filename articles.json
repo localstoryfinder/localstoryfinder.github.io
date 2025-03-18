@@ -2,6 +2,193 @@
     {
         "source": {
             "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "Trump Admin Shuts Down California Civil Rights Office",
+        "description": "The U.S. Department of Education has announced the closure of seven of its 12 regional Office for Civil Rights (OCR) branches, including the San Francisco office that handles California\u2019s federal civil rights complaints.",
+        "url": "https://thesunreporter.com/trump-admin-shuts-down-california-civil-rights-office/",
+        "publishedAt": "2025-03-18T14:02:22+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Alex Hall",
+        "title": "Oakland Voters Want to Know How the Next Mayor Would Fix the City\u2019s Finances",
+        "description": "As the city faces a major budget deficit, candidates are making their pitch about what they would do to improve the city's financial health.",
+        "url": "https://www.kqed.org/news/12031370/oakland-voters-want-to-know-how-next-mayor-would-fix-citys-finances",
+        "publishedAt": "2025-03-18T14:00:12+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "Advocates, Attorneys Arm Immigrants With Education to Fight ICE Raids",
+        "description": "Advocates, Attorneys Arm Immigrants With Education to Fight ICE Raids Manny Otiko | California Black Media \u00a0 A number of California groups, officials and individuals are taking proactive steps to educate immigrants subject to deportation about their legal rights as Immigration and Customs Enforcement (ICE) raids escalate. One of them is Assemblymember Mia Bonta (D-Oakland), [\u2026]",
+        "url": "https://thesunreporter.com/advocates-attorneys-arm-immigrants-with-education-to-fight-ice-raids/",
+        "publishedAt": "2025-03-18T13:56:56+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "Report Offers Policies, Ideas to Improve the Workplace Experiences of Black Women in California",
+        "description": "McKenzie Jackson | California Black Media Backed by data, a report released last month details the numerous hurdles Black women in the Golden State must overcome to effectively contribute and succeed in the workplace. The \u201cInvisible Labor, Visible Struggles: The Intersection of Race, Gender, and Workplace Equity for Black Women in California\u201d report by the [\u2026]",
+        "url": "https://thesunreporter.com/report-offers-policies-ideas-to-improve-the-workplace-experiences-of-black-women-in-california/",
+        "publishedAt": "2025-03-18T13:50:41+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Katie DeBenedetti",
+        "title": "Volunteers Restore Vandalized Mural as Oceanfront Park Project Moves Forward",
+        "description": "The vandalism occurred on the first day of Upper Great Highway\u2019s transformation into Oceanfront Park.",
+        "url": "https://www.kqed.org/news/12031698/volunteers-restore-vandalized-mural-as-oceanfront-park-project-moves-forward",
+        "publishedAt": "2025-03-18T13:30:45+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Steph Rodriguez",
+        "title": "California Falls Short in Enforcing Regulations for the Metal Shredding Industry",
+        "description": "After decades of lax oversight, new efforts are underway to protect communities from toxic emissions without putting the industry out of business.",
+        "url": "https://www.kqed.org/news/12031593/california-falls-short-enforcing-regulations-for-metal-shredding-industry",
+        "publishedAt": "2025-03-18T13:00:04+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Adhiti Bandlamudi",
+        "title": "San Francisco Considers Pausing Empty Homes Tax",
+        "description": "In 2022, San Francisco voters approved a tax meant to open up housing units that were otherwise vacant. But the tax has been held up in litigation, and city officials haven\u2019t been able to implement it yet.",
+        "url": "https://www.kqed.org/news/12030792/san-francisco-considers-pausing-empty-homes-tax",
+        "publishedAt": "2025-03-18T12:00:09+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Ariana Bindman",
+        "title": "'Predatory' Bay Area towing company accused of lighting rivals' vehicles on fire",
+        "description": "The operators of an infamous San Francisco tow truck company have been accused of lighting their competitors' vehicles on fire.",
+        "url": "https://www.sfgate.com/bayarea/article/bay-area-tow-truck-company-fire-20226038.php",
+        "publishedAt": "2025-03-18T11:25:14+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Carlos Cabrera-Lomel\u00ed",
+        "title": "San Francisco Pride Struggles to Secure Sponsorships Ahead of 2025 Parade",
+        "description": "SF Pride\u2019s dependence on corporate sponsorship has been a source of criticism within the city\u2019s LGBTQ+ community for years.",
+        "url": "https://www.kqed.org/news/12031588/san-francisco-pride-struggles-secure-sponsorships-ahead-2025-parade",
+        "publishedAt": "2025-03-18T11:00:01+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Vandals Attack Great Highway Park",
+        "description": "Echoing the national trend, a contingent of anti-Prop. K folks have decided to reject democratic process\nThe post Vandals Attack Great Highway Park appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/17/vandals-attack-great-highway-park",
+        "publishedAt": "2025-03-17T22:56:50+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "This Week: Muni Funding Rally, Muni Funding Vote, Resilient City",
+        "description": "Here is a list of events this week. Got an event we should know about?\u00a0Drop us a line.",
+        "url": "https://sf.streetsblog.org/2025/03/17/this-week-muni-funding-rally-muni-funding-vote-resilient-city",
+        "publishedAt": "2025-03-17T15:17:45+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, March 17",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, March 17 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/17/headlines-march-17",
+        "publishedAt": "2025-03-17T15:12:58+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Lori Markowitz",
+        "title": "Op-Ed: Anti-Speeding Technology Could Have Saved My Son",
+        "description": "A new Washington state bill could help end speeding. And similar bills are spreading across the country.",
+        "url": "https://usa.streetsblog.org/2025/03/17/op-ed-anti-speeding-technology-could-have-saved-my-son-op-ed",
+        "publishedAt": "2025-03-17T14:00:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "MAYOR LURIE APPOINTS LIBRARY, HUMAN SERVICES COMMISSIONERS",
+        "description": "Four Appointments Bring Unique Perspectives that Will Support San Francisco\u2019s Recovery SAN FRANCISCO\u00a0\u2013 Mayor Daniel Lurie today announced two new appointments and one reappointment to the city\u2019s Library Commission, as well as a reappointment to the Human Services Commission. Mayor Lurie has appointed Dr.",
+        "url": "https://thesunreporter.com/mayor-lurie-appoints-library-human-services-commissioners/",
+        "publishedAt": "2025-03-17T13:46:11+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "What Will \u2018Safe Streets and Road For All\u2019 Mean Under Sec. Duffy?",
+        "description": "Last week, Secretary Duffy directed staff to start the process of clawing back millions in discretionary dollars for bike lanes. How will he spend it instead?\nThe post What Will \u2018Safe Streets and Road For All\u2019 Mean Under Sec.",
+        "url": "https://usa.streetsblog.org/2025/03/17/what-will-safe-streets-and-road-for-all-mean-under-sec-duffy",
+        "publishedAt": "2025-03-17T04:03:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "Sen. Lola Smallwood-Cuevas Honors California Women in Construction With State Proclamation, Policy Ideas",
+        "description": "Antonio Ray Harvey | California Black Media \u00a0 To honor Women in Construction Week, Sen. Lola Smallwood-Cuevas (D-Los Angeles), a member of the California Legislative Black Caucus (CLBC), introduced Senate Concurrent Resolution (SCR) 30 in the State Legislature on March 6.",
+        "url": "https://thesunreporter.com/sen-lola-smallwood-cuevas-honors-california-women-in-construction-with-state-proclamation-policy-ideas/",
+        "publishedAt": "2025-03-16T13:51:17+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "MAYOR LURIE ANNOUNCES LEGISLATION TO HELP SMALL BUSINESSES OPEN, GROW",
+        "description": "Will Renew First Year Free Program, Waiving Fees for New Businesses Builds on Mayor Lurie\u2019s PermitSF\u00a0Initiative, Making It Easier to Open a Business in San Francisco SAN FRANCISCO\u00a0\u2013 Mayor Daniel Lurie today announced that he will introduce legislation to the Board of Supervisors to renew the successful\u00a0First Year Free program, which makes it easier for [\u2026]",
+        "url": "https://thesunreporter.com/mayor-lurie-announces-legislation-to-help-small-businesses-open-grow/",
+        "publishedAt": "2025-03-15T13:26:29+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "SFGate"
         },
         "author": "By LINDSEY BAHR, AP Film Writer",
