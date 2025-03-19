@@ -2,6 +2,127 @@
     {
         "source": {
             "id": null,
+            "name": "KQED"
+        },
+        "author": "Nisa Khan",
+        "title": "Got Student Loans? Here\u2019s What to Know During These Department of Education Cuts",
+        "description": "Amid looming federal education cuts, it\u2019s important to keep calm and know where to find reliable information. We talked to the experts about how to manage your student loans in uncertain times.",
+        "url": "https://www.kqed.org/news/12031831/i-have-student-loans-what-should-i-do-during-these-department-of-education-cuts",
+        "publishedAt": "2025-03-19T13:30:53+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": null,
+        "title": "Courtney B. Vance to narrate audio edition of prize-winning W.E.B. Du Bois biography",
+        "description": "Award-winning actor Courtney B. Vance will be narrating the first ever-audio edition of one of the most acclaimed literary biographies of the past 30 years, David Levering Lewis\u2019 two-volume work on the scholar, author and civil rights activist W.E.B. Du Bois.\u2026",
+        "url": "https://www.sfgate.com/entertainment/article/courtney-b-vance-to-narrate-audio-edition-of-20229527.php",
+        "publishedAt": "2025-03-19T12:55:06+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Guy Marzorati",
+        "title": "Homelessness, Trust at Center of San Jos\u00e9 District 3 Special Election",
+        "description": "Ahead of the April 8 special election, voters said homelessness was their top issue in the race for the downtown seat vacated by Omar Torres.",
+        "url": "https://www.kqed.org/news/12031808/homelessness-trust-center-san-jose-district-3-special-election",
+        "publishedAt": "2025-03-19T11:00:40+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Ericka Cruz Guevarra",
+        "title": "San Jos\u00e9\u2019s District 3 Is Picking a New City Councilmember \u2014 and the Stakes Are High",
+        "description": "The future of downtown San Jos\u00e9 \u2014\u00a0and possibly Mayor Matt Mahan\u2019s agenda \u2014 hangs in the balance.",
+        "url": "https://www.kqed.org/news/12031953/san-joses-district-3-is-picking-a-new-city-councilmember-and-the-stakes-are-high",
+        "publishedAt": "2025-03-19T10:00:31+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Morgan Sung",
+        "title": "What Happens if the Internet Archive Goes Dark?",
+        "description": "For decades, the Internet Archive has preserved our digital history. Lately, journalists and ordinary citizens have been turning to it more than ever, as the Trump administration undertakes an ideologically-driven purge of government websites. But the Archive\u2026",
+        "url": "https://www.kqed.org/news/12031980/what-happens-if-the-internet-archive-goes-dark",
+        "publishedAt": "2025-03-19T10:00:03+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Alex Simon",
+        "title": "Warriors flagship radio station host blasts team for resting Steph Curry",
+        "description": "One of the hosts at the flagship radio station for the Golden State Warriors blasted the team for sitting Steph Curry in Tuesday's game against the Bucks.",
+        "url": "https://www.sfgate.com/warriors/article/warriors-flagship-host-blasts-steph-curry-rest-20228897.php",
+        "publishedAt": "2025-03-19T00:55:21+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Advocates Resist Muni Service Cuts",
+        "description": "Is this a transit-first city? Or a cut-transit-first city?\nThe post Advocates Resist Muni Service Cuts appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/18/advocates-resist-muni-service-cuts",
+        "publishedAt": "2025-03-18T22:49:49+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, March 18",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, March 18 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/18/headlines-march-18-2",
+        "publishedAt": "2025-03-18T15:15:20+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "\u2018A Direct Attack\u2019: Top Dem on House Transport Committee Slams Trump\u2019s Green Infrastructure Clawback",
+        "description": "The Trump administration's attempts to claw back already-awarded grants for active transportation are on questionable legal footing, the top transportation Democrat says \u2013 and he won't stop fighting to save pedestrian and cyclist lives. The post \u2018A Direct Attack\u2019: Top Dem on House Transport Committee Slams Trump\u2019s Green Infrastructure Clawback appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/03/18/a-direct-attack-top-dem-on-house-transport-committee-slams-trumps-green-infrastructure-clawback",
+        "publishedAt": "2025-03-18T04:03:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Damien Newton",
+        "title": "Wiener Introduces Legislation to Increase Housing Density Near Transit",
+        "description": "Senator Scott Wiener is trying again to increase housing density near transit stops. The post Wiener Introduces Legislation to Increase Housing Density Near Transit appeared first on Streetsblog California.",
+        "url": "https://cal.streetsblog.org/2025/03/17/wiener-introduces-legislation-to-increase-housing-density-near-transit",
+        "publishedAt": "2025-03-17T20:54:58+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "thesunreporter.com"
+        },
+        "author": "Evan Ward",
+        "title": "Vol 80 No. 49",
+        "description": "",
+        "url": "https://thesunreporter.com/vol-80-no-49/",
+        "publishedAt": "2025-01-30T15:18:13+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "thesunreporter.com"
         },
         "author": "Evan Ward",
