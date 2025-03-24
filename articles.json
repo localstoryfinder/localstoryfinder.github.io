@@ -2,6 +2,61 @@
     {
         "source": {
             "id": null,
+            "name": "SFGate"
+        },
+        "author": "By The Associated Press",
+        "title": "Celebrity birthdays for the week of March 30-April 5",
+        "description": "Celebrities having birthdays during the week of March 30-April 5 include actor Alec Baldwin, rapper MC Hammer and country singer Thomas Rhett. Actor Robert Downey Jr. turns 60, rapper-producer Pharrell Williams hits 52 and guitarist Angus Young of AC/DC reach\u2026",
+        "url": "https://www.sfgate.com/entertainment/article/celebrity-birthdays-for-the-week-of-march-20237648.php",
+        "publishedAt": "2025-03-24T13:36:15+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Dan Brekke",
+        "title": "First Look at 2026 Tax Proposal to Keep Bay Area Transit Running",
+        "description": "Lawmakers propose a three-county tax designed to partially address catastrophic deficits at BART, Muni and other agencies.",
+        "url": "https://www.kqed.org/news/12032607/first-look-at-2026-tax-proposal-to-keep-bay-area-transit-running",
+        "publishedAt": "2025-03-24T12:00:55+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Ericka Cruz Guevarra",
+        "title": "For Immigrant Day Laborers, Hiding Is Not a Viable Option",
+        "description": "Berkeleyside\u2019s Ximena Natera joins us to talk about how jornaleros in Berkeley are dealing with increased fears of deportation, and where these workers are finding support in difficult times.",
+        "url": "https://www.kqed.org/news/12032505/for-immigrant-day-laborers-hiding-is-not-a-viable-option",
+        "publishedAt": "2025-03-24T10:00:21+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Timothy Karoff, Kendra Smith, Olivia Hebert, Kasia Pawlowska, Stephen Council",
+        "title": "California 'art thief' celebrated at SF museum",
+        "description": "The Legion of Honor's Wayne Thiebaud exhibit opened Saturday. Plus, a Warriors win and a perfect pub.",
+        "url": "https://www.sfgate.com/sf-culture/article/california-art-thief-sf-museum-20234315.php",
+        "publishedAt": "2025-03-24T01:23:53+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Sara Hossaini",
+        "title": "VTA Slightly Boosts Raise Offer, Union Says It Falls Far Short",
+        "description": "VTA has increased their offer on wages to striking transit workers to 11% over three years. That's up from their last offer of 10.5% but still well short of ATU's demand of 18% over the same period.",
+        "url": "https://www.kqed.org/news/12032652/vta-slightly-boosts-raise-offer-union-says-it-falls-far-short",
+        "publishedAt": "2025-03-24T00:51:23+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "KQED"
         },
         "author": "Laura Klivans",
