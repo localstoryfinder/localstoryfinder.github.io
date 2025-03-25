@@ -2,6 +2,105 @@
     {
         "source": {
             "id": null,
+            "name": "KQED"
+        },
+        "author": "Scott Shafer",
+        "title": "UCSF Loses Top Heart Surgeon Over Trump\u2019s Hostility Toward Canada",
+        "description": "A leading heart surgeon from Canada who was set to start at UCSF this month changed his mind, citing \u201cthe evolving political climate\u201d in the U.S.",
+        "url": "https://www.kqed.org/news/12032795/ucsf-loses-top-heart-surgeon-over-trumps-hostility-toward-canada",
+        "publishedAt": "2025-03-25T13:00:28+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Sfstandard.com"
+        },
+        "author": "The San Francisco Standard",
+        "title": "45-Foot Nude Woman Finds Her Place In San Francisco After All",
+        "description": "The statue\u2019s much-discussed appearance in Union Square was called off when engineers determined that it was literally too heavy for the site to bear. Now the piece by sculptor Marco Cochrane, titled R-Evolution, will appear in Embarcadero Plaza starting on Ap\u2026",
+        "url": "https://sfstandard.com/2025/03/19/embarcadero-plaza-naked-woman-statue/",
+        "publishedAt": "2025-03-25T12:32:51+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Matthew Green",
+        "title": "What\u2019s Next for 23andMe? Bankruptcy Filing Raises Questions About Data Security",
+        "description": "The South San Francisco-based company, which pioneered at-home genetic testing, holds a trove of sensitive genetic data on its 15 million customers.",
+        "url": "https://www.kqed.org/news/12032768/whats-next-23andme-bankruptcy-filing-raises-questions-data-security",
+        "publishedAt": "2025-03-25T12:00:01+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Bianca Taylor",
+        "title": "Amid Rising Threats, Transgender Community Builds Bonds at This SF Self-Defense Class",
+        "description": "San Francisco advocates offer new self-defense training for transgender and gender-expansive communities in an effort to increase feelings of safety and solidarity.",
+        "url": "https://www.kqed.org/news/12032731/amid-rising-threats-transgender-community-builds-bonds-san-francisco-self-defense-class",
+        "publishedAt": "2025-03-25T11:00:04+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Joseph Geha",
+        "title": "Transit Standoff Continues: Union, VTA Blame Each Other as Riders Struggle",
+        "description": "Tens of thousands of transit riders will remain without bus and light rail service as unionized workers rejected the latest contract offer from the VTA, vowing to continue their strike.",
+        "url": "https://www.kqed.org/news/12032851/transit-standoff-continues-union-vta-blame-each-other-as-riders-struggle",
+        "publishedAt": "2025-03-25T01:33:15+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Transit-Funding Measure Reintroduced",
+        "description": "Wiener and Arregu\u00edn launch Senate Bill 63, another attempt to get a sales tax onto the ballot to keep the Bay Area moving\nThe post Transit-Funding Measure Reintroduced appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/24/transit-funding-measure-reintroduced",
+        "publishedAt": "2025-03-24T23:26:14+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, March 24",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, March 24 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/03/24/headlines-march-24",
+        "publishedAt": "2025-03-24T15:06:28+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "This Week: Bicycle Advisory, Volunteer Night, Repair Clinic",
+        "description": "Here is a list of events this week. Got an event we should know about?\u00a0Drop us a line.",
+        "url": "https://sf.streetsblog.org/2025/03/24/this-week-bicycle-advisory-volunteer-night-repair-clinic",
+        "publishedAt": "2025-03-24T15:00:29+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "It\u2019s Time For State DOTs to Step Up and Do a Better Job",
+        "description": "As federal support for active modes gets clawed back, state DOTs could play a more important role in America's transportation system \u2014\u00a0and a new report argues they need to innovate. The post It\u2019s Time For State DOTs to Step Up and Do a Better Job appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/03/24/its-time-for-state-dots-to-step-up-and-do-a-better-job",
+        "publishedAt": "2025-03-24T04:04:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "SFGate"
         },
         "author": "By The Associated Press",
