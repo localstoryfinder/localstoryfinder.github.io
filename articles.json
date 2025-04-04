@@ -2,6 +2,83 @@
     {
         "source": {
             "id": null,
+            "name": "SFGate"
+        },
+        "author": "Erin Rode",
+        "title": "The unexpected lives of LA's urban coyotes",
+        "description": "A study of the movement of 20 coyotes in Los Angeles County turned up some unexpected findings.",
+        "url": "https://www.sfgate.com/la/article/los-angeles-coyotes-behavior-20250965.php",
+        "publishedAt": "2025-04-04T11:25:46+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Ericka Cruz Guevarra",
+        "title": "A Generation of Black Men Is Being Lost to Overdoses in San Francisco",
+        "description": "Black men born between 1951 and 1970 accounted for 12% of overdose deaths over a recent four-year period in San Francisco, despite representing less than 1% of the population.",
+        "url": "https://www.kqed.org/news/12034445/a-generation-of-black-men-is-being-lost-to-overdoses-in-san-franciscof",
+        "publishedAt": "2025-04-04T10:00:45+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Alex Simon",
+        "title": "Lakers ruin Warriors\u2019 dunk of the year by complaining",
+        "description": "Golden State Warriors guard Moses Moody's dunk of the year candidate was ruined by the Los Angeles Lakers complaining to the refs to get a call overturned.",
+        "url": "https://www.sfgate.com/warriors/article/lakers-ruin-warriors-dunk-of-the-year-complaining-20258064.php",
+        "publishedAt": "2025-04-04T03:25:40+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "The Marin County Bicycle Coalition",
+        "title": "On the Sausalito City Council and the  Bridgeway Safety Project",
+        "description": "The Marin County Bicycle Coalition responds to Saturday's fiasco at City Hall... and discusses next steps for Bridgeway\nThe post On the Sausalito City Council and the  Bridgeway Safety Project appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/03/on-the-sausalito-city-council-and-the-bridgeway-safety-project",
+        "publishedAt": "2025-04-03T21:07:02+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Oak Street Protected Bike Lane Approved. Questions Remain About Section in Panhandle Park",
+        "description": "Overall project is welcome. But SFMTA has cyclists cutting into the Panhandle Park to make more room for turning cars\nThe post Oak Street Protected Bike Lane Approved.",
+        "url": "https://sf.streetsblog.org/2025/04/03/oak-street-protected-bike-lane-approved-questions-remain-about-section-in-the-panhandle",
+        "publishedAt": "2025-04-03T19:07:07+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, April 3",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, April 3 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/03/headlines-april-3-2",
+        "publishedAt": "2025-04-03T15:03:18+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "Duffy Delivers Mixed Messages on \u2018Woke\u2019 Transportation Funding Delays",
+        "description": "The U.S. DOT secretary says he's drowning under a backlog of grants from the Biden administration \u2014 but somehow has time to scrutinize them all for a \"woke\" agenda.",
+        "url": "https://usa.streetsblog.org/2025/04/02/duffy-delivers-mixed-messages-on-why-woke-transportation-funding",
+        "publishedAt": "2025-04-02T19:34:48+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "KQED"
         },
         "author": "Guy Marzorati",
