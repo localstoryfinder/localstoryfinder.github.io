@@ -2,6 +2,94 @@
     {
         "source": {
             "id": null,
+            "name": "KQED"
+        },
+        "author": "Katie DeBenedetti",
+        "title": "Democrats Saw This Week as a Turning Point. Some Young Californians Aren\u2019t So Sure",
+        "description": "After Sen. Cory Booker\u2019s passionate 25-hour Senate speech and a liberal judge\u2019s win in a key Wisconsin Supreme Court election, many Democrats are hopeful for a shift in momentum.",
+        "url": "https://www.kqed.org/news/12034391/democrats-saw-this-week-as-a-turning-point-some-young-californians-arent-so-sure",
+        "publishedAt": "2025-04-05T13:00:42+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Scott Shafer",
+        "title": "Politics Friday: Trans Bills Die in Sacramento, Becerra is Running for Governor",
+        "description": "The debate over transgender athletes was the focus of a heated hearing in Sacramento this week. California lawmakers rejected two bills sponsored by Republicans that would have limited trans high school athletes from participating in girls&#8217; sports. The \u2026",
+        "url": "https://www.kqed.org/news/12034385/politics-friday-trans-bills-die-in-sacramento-becerra-is-running-for-governor",
+        "publishedAt": "2025-04-05T01:20:04+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Mayor\u2019s Zoning Plan to Finally Allow Density Around Transit in San Francisco",
+        "description": "A post netting some of the comments and reporting on Mayor Lurie's \"Family Zoning\" plan to add 36,000 new homes throughout the city\nThe post Mayor\u2019s Zoning Plan to Finally Allow Density Around Transit in San Francisco appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/04/mayors-zoning-plan-to-finally-allow-density-around-transit-in-san-francisco",
+        "publishedAt": "2025-04-04T22:34:57+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Damien Newton",
+        "title": "StreetSmart 5: Silicon Valley Transit Advocate Monica Mallon Chronicles the VTA Strike",
+        "description": "Episode 4 of the StreetSmart podcast features Monica Mallon and a discussion of the VTA strike in Silicon Valley. If you\u2019re not familiar with Mallon, she is a one-person advocacy machine focused on transit in the Bay Area Peninsula, specifically the VTA.",
+        "url": "https://cal.streetsblog.org/2025/04/04/streetsmart-5-silicon-valley-transit-advocate-monica-mallon-chronicles-the-vta-strike",
+        "publishedAt": "2025-04-04T21:57:39+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Headlines, April 4",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, April 4 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/04/headlines-april-4-2",
+        "publishedAt": "2025-04-04T15:26:35+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Streetsblog",
+        "title": "Video: Get Thee To Ghent",
+        "description": "The Belgian city banned cars from its inner core in 2017 \u2014 and it's working!\nThe post Video: Get Thee To Ghent appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/04/04/friday-video-get-thee-to-ghent",
+        "publishedAt": "2025-04-04T04:02:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "US DOT Doesn\u2019t Want to Fund Road Diets Anymore",
+        "description": "One of America's largest road safety programs will look \"unfavorably\" on applications that reduce lane capacity for vehicles \u2013\u00a0even in urban areas where there's nowhere else to build bike lanes, sidewalk extension, and other sorely-needed infrastructur... The post US DOT Doesn\u2019t Want to Fund Road Diets Anymore appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/04/03/us-dot-doesnt-want-to-fund-road-diets-anymore",
+        "publishedAt": "2025-04-03T19:54:20+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Jeff Wood",
+        "title": "Talking Headways Podcast: Planning Connections in Panther City",
+        "description": "Fort Worth's Kelly Porter on the city's city\u2019s history, incredible growth and Texas high-speed rail. The post Talking Headways Podcast: Planning Connections in Panther City appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/04/03/talking-headways-podcast-planning-connections-in-panther-city",
+        "publishedAt": "2025-04-03T16:12:28+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "SFGate"
         },
         "author": "Erin Rode",
