@@ -2,6 +2,116 @@
     {
         "source": {
             "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, April 10",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, April 10 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/10/headlines-april-10",
+        "publishedAt": "2025-04-10T14:01:09+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Daisy Nguyen",
+        "title": "California Needs Transitional Kindergarten Teachers. Preschool Teachers Want in",
+        "description": "California needs a lot more teachers and aides to fill transitional kindergarten classrooms, but advocates say early childhood educators who have the experience and desire to step into those jobs are deterred by the state\u2019s credentialing system.",
+        "url": "https://www.kqed.org/news/12033209/california-needs-transitional-kindergarten-teachers-preschool-teachers-want-in",
+        "publishedAt": "2025-04-10T14:00:51+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Sydney Johnson",
+        "title": "Lurie Taps City Elite to Fund San Francisco\u2019s Comeback",
+        "description": "Will the wealthy save San Francisco? Mayor Daniel Lurie is doubling down on his approach to solving the city\u2019s problems by recruiting big names in tech, finance and philanthropy.",
+        "url": "https://www.kqed.org/news/12035273/mayor-lurie-taps-city-elite-to-fund-san-franciscos-comeback",
+        "publishedAt": "2025-04-10T14:00:40+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Matthew Green",
+        "title": "4 Whales Have Died in the Bay Area in Less Than 2 Weeks",
+        "description": "A rarely spotted juvenile minke whale that stranded itself near Emeryville was euthanized on Tuesday, days after three gray whales were found dead in the area. Experts say it\u2019s unlikely the two species\u2019 deaths were related.",
+        "url": "https://www.kqed.org/news/12035182/4-whales-have-died-in-the-bay-area-in-less-than-2-weeks",
+        "publishedAt": "2025-04-10T13:00:30+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Azul Dahlstrom-Eckman",
+        "title": "SF\u2019s 420 Hippie Hill Celebration Is Canceled, So How Can People Celebrate Safely?",
+        "description": "With SF\u2019s official 420 canceled for the second year running, where can you find 420 celebrations near you \u2014 and what does the law say about smoking cannabis in public?",
+        "url": "https://www.kqed.org/news/12032542/sfs-420-hippie-hill-celebration-is-canceled-so-how-can-people-celebrate-safely",
+        "publishedAt": "2025-04-10T11:00:25+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Katrina Schwartz",
+        "title": "How Canned Salmon Became Big Business in Gold Rush San Francisco",
+        "description": "Salmon canning was big business in San Francisco for a long time. In the early 20th century, sailing ships would head for Alaska each summer, carrying all the men, supplies and machinery needed for several months of remote work.",
+        "url": "https://www.kqed.org/news/12034966/inside-the-sailing-ships-that-carried-thousands-of-san-francisco-workers-to-alaska",
+        "publishedAt": "2025-04-10T10:00:15+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Gabe Fernandez",
+        "title": "First SF Giants splash hit of the year caps off huge comeback win",
+        "description": "The San Francisco Giants completed a crazy comeback with a splash hit into McCovey Cove, their third walk-off win this home stand.",
+        "url": "https://www.sfgate.com/giants/article/first-sf-giants-splash-hit-huge-comeback-win-20267856.php",
+        "publishedAt": "2025-04-10T00:21:45+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Joanna Gubman",
+        "title": "Op-Ed: SUV, Cybertruck, Delivery Van Owners Should Pay their Fair Share",
+        "description": "It's time for owners of heavy vehicles to pay for the extra costs they cause for cities\nThe post Op-Ed: SUV, Cybertruck, Delivery Van Owners Should Pay their Fair Share appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/09/op-ed-suvs-cybertrucks-delivery-vans-should-pay-more-for-streets",
+        "publishedAt": "2025-04-09T21:40:32+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, April 9",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, April 9 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/09/headlines-april-9",
+        "publishedAt": "2025-04-09T15:19:51+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "Is Philadelphia About to Eliminate America\u2019s Best Free Transit Program?",
+        "description": "The City of Brotherly Love has been giving free rides of tens of thousands of low-income residents \u2014\u00a0but the money might be about to dry up. The post Is Philadelphia About to Eliminate America\u2019s Best Free Transit Program? appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/04/09/is-philadelphia-about-to-eliminate-americas-best-free-transit-program",
+        "publishedAt": "2025-04-09T04:02:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "KQED"
         },
         "author": "Samantha Lim",
