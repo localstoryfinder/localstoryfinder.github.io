@@ -2,6 +2,94 @@
     {
         "source": {
             "id": null,
+            "name": "KQED"
+        },
+        "author": "Carlos Cabrera-Lomel\u00ed",
+        "title": "Teaching Your Kids How to Cook? How to Get Started, No Matter Their Age",
+        "description": "KQED provides public radio, television, and independent reporting on issues that matter to the Bay Area. We\u2019re the NPR and PBS member station for Northern California.",
+        "url": "https://www.kqed.org/news/12035518/teaching-your-kids-how-to-cook-how-to-get-started-no-matter-their-age",
+        "publishedAt": "2025-04-11T12:00:58+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Caroline Champlin",
+        "title": "The Eaton Fire Hit Caltech Scientists Close to Home. Now, They\u2019re Studying the Toxic Aftermath",
+        "description": "In the aftermath of the Eaton Fire that raged across Los Angeles County in January, Caltech scientists came together as a community to support their colleagues and ask critical environmental research questions.",
+        "url": "https://www.kqed.org/news/12035344/the-eaton-fire-hit-caltech-scientists-close-to-home-now-theyre-studying-the-toxic-aftermath",
+        "publishedAt": "2025-04-11T11:00:30+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Alan Montecillo",
+        "title": "Two California Students Had Their Visas Canceled. Now They Are Suing the Trump Administration",
+        "description": "The Trump Administration has revoked hundreds of student visas, claiming many have participated in \u2018pro-Hamas\u2019 activism on college campuses.",
+        "url": "https://www.kqed.org/news/12035489/two-california-students-had-their-visas-revoked-now-they-are-suing-trump",
+        "publishedAt": "2025-04-11T10:00:55+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Susana Guerrero",
+        "title": "Bay Area Whole Foods fails second health inspection in less than a month",
+        "description": "The Whole Foods market in Cupertino failed its health inspection on Monday following vermin droppings found within the store's deli, bakery and juice bar.",
+        "url": "https://www.sfgate.com/food/article/bay-area-cupertino-whole-foods-health-inspection-20269510.php",
+        "publishedAt": "2025-04-11T00:10:15+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "Conference: Parklets Key to Rolling Back Motordom\u2019s Takeover of the Streets",
+        "description": "International Parklet Symposium kicks off in San Francisco\nThe post Conference: Parklets Key to Rolling Back Motordom\u2019s Takeover of the Streets appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/10/conference-parklets-key-to-rolling-back-motordoms-takeover-of-the-streets",
+        "publishedAt": "2025-04-10T19:56:58+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kid Safe, SFBC, Transit Riders, and Walk San Francisco",
+        "title": "Advocates Denounce Mayor Lurie\u2019s  Decision to Allow Waymo on Market Street",
+        "description": "Mayor Lurie wants Robo-taxis on Market Street. Advocates say over our dead bodies.",
+        "url": "https://sf.streetsblog.org/2025/04/10/advocates-denounce-mayor-luries-decision-to-allow-waymo-on-market-street",
+        "publishedAt": "2025-04-10T18:19:53+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Damien Newton",
+        "title": "Senate Committee Rejects Legislation Allowing Lawsuits Against Oil and Gas Companies for Climate Disasters",
+        "description": "The legislation, introduced by Senator Scott Wiener (D-SF) would have been the first of its kind in the country. The post Senate Committee Rejects Legislation Allowing Lawsuits Against Oil and Gas Companies for Climate Disasters appeared first on Streetsblog California.",
+        "url": "https://cal.streetsblog.org/2025/04/09/senate-committee-rejects-legislation-allowing-lawsuits-against-oil-and-gas-companies-for-climate-disasters",
+        "publishedAt": "2025-04-09T21:45:14+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "What Trump\u2019s Tariff Chaos Could Mean For Transportation",
+        "description": "Hint: expensive cars, expensive trains, expensive bikes, expensive everything. The post What Trump\u2019s Tariff Chaos Could Mean For Transportation appeared first on Streetsblog San Francisco.",
+        "url": "https://usa.streetsblog.org/2025/04/09/what-trumps-tariff-chaos-could-mean-for-transportation",
+        "publishedAt": "2025-04-09T20:09:13+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "sf.streetsblog.org"
         },
         "author": "",
