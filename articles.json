@@ -2,6 +2,83 @@
     {
         "source": {
             "id": null,
+            "name": "SFGate"
+        },
+        "author": "By The Associated Press",
+        "title": "Celebrity birthdays for the week of April 20-26",
+        "description": "Celebrities having birthdays during the week of April 20-26 include actor Giancarlo Esposito, singer-TV personality Kelly Clarkson and comedian George Lopez. Actor Jessica Lange turns 76, actor Shemar Moore from \u201cCriminal Minds\u201d hits 55 and actor Carmen Elect\u2026",
+        "url": "https://www.sfgate.com/entertainment/article/celebrity-birthdays-for-the-week-of-april-20-26-20274759.php",
+        "publishedAt": "2025-04-14T13:55:57+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Greg Keraghosian",
+        "title": "The San Francisco writer who turned down a Pulitzer and used his Oscar as a doorstop",
+        "description": "William Saroyan's frustrations over the Oscar he won stemmed from a gamble on himself that didn't pay off.",
+        "url": "https://www.sfgate.com/local/article/sf-writer-turned-down-pulitzer-used-oscar-doorstop-20265187.php",
+        "publishedAt": "2025-04-14T11:11:12+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Sukey Lewis",
+        "title": "Federal Antisemitism Probes in California: Is Your College Under Investigation?",
+        "description": "At least 17 California colleges face federal probes into antisemitism, including a Department of Justice investigation of the UC system\u2019s treatment of Jewish employees.",
+        "url": "https://www.kqed.org/news/12034707/federal-antisemitism-investigations-california-higher-education-explained",
+        "publishedAt": "2025-04-14T11:00:19+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Alan Montecillo",
+        "title": "Waymo Robotaxis Are Everywhere. How Do We Feel About That?",
+        "description": "The rise of Waymo vandalism, and its roots in our collective anxiety over AI.",
+        "url": "https://www.kqed.org/news/12035725/waymo-robotaxis-are-everywhere-how-do-we-feel-about-that",
+        "publishedAt": "2025-04-14T10:00:05+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Timothy Karoff",
+        "title": "Coachella cuts rapper Megan Thee Stallion's mic at climax of star-studded set",
+        "description": "Megan Thee Stallion's set stopped mid-song at Coachella, with the rapper proclaiming \u201cDon\u2019t y\u2019all do the hotties like that\u201d on the livestream.",
+        "url": "https://www.sfgate.com/sf-culture/article/coachella-cuts-megan-thee-stallion-mic-20274402.php",
+        "publishedAt": "2025-04-14T05:35:05+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Paula Mej\u00eda",
+        "title": "California punk stalwarts call for an 'army of Luigis' during brash Coachella set",
+        "description": "SoCal punk rockers Circle Jerks didn't pull any punches as they riffed to a Coachella crowd about alleged murderer Luigi Mangione.",
+        "url": "https://www.sfgate.com/sf-culture/article/calif-punk-stalwarts-army-of-luigis-coachella-20274319.php",
+        "publishedAt": "2025-04-14T04:35:06+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "SFGate"
+        },
+        "author": "Stephen Council",
+        "title": "Pop phenom Amaarae sneers, flexes, gets haircut during dazzling Coachella set",
+        "description": "In what might be a Coachella first, Amaarae got her haircut onstage while ripping through a powerful set.",
+        "url": "https://www.sfgate.com/sf-culture/article/pop-phenom-amaarae-gets-haircut-coachella-20274279.php",
+        "publishedAt": "2025-04-14T03:35:06+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "KQED"
         },
         "author": "Farida Jhabvala Romero",
