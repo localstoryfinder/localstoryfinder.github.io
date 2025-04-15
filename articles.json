@@ -2,6 +2,105 @@
     {
         "source": {
             "id": null,
+            "name": "KQED"
+        },
+        "author": "Katie DeBenedetti",
+        "title": "April Showers Drop Rain, Snow and Possible Thunderstorms on the Bay Area",
+        "description": "After a warm spring weekend in Northern California, temperatures are expected to swing, with rain and possible thunderstorms mid-week.",
+        "url": "https://www.kqed.org/news/12035963/april-showers-drop-rain-snow-possible-thunderstorms-bay-area",
+        "publishedAt": "2025-04-15T11:00:20+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Katie DeBenedetti",
+        "title": "Mistrial Declared in FCI Dubin Sex Abuse Case After Jury Deadlocks on All Charges",
+        "description": "Jurors could not reach a verdict in the federal trial against Darrell Wayne Smith, a former FCI Dublin officer accused of sexually abusing five incarcerated women.",
+        "url": "https://www.kqed.org/news/12035958/mistrial-declared-fci-dubin-sex-abuse-case-jury-deadlocks-all-charges",
+        "publishedAt": "2025-04-15T00:19:02+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "KQED"
+        },
+        "author": "Katie DeBenedetti",
+        "title": "Mistrial Declared in FCI Dublin Sex Abuse Case After Jury Deadlocks on All Charges",
+        "description": "Jurors could not reach a verdict in the federal trial against Darrell Wayne Smith, a former FCI Dublin officer accused of sexually abusing five incarcerated women.",
+        "url": "https://www.kqed.org/news/12035958/mistrial-declared-fci-dublin-sex-abuse-case-jury-deadlocks-all-charges",
+        "publishedAt": "2025-04-15T00:19:02+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "13,000 People Attend Sunset Dunes Opening",
+        "description": "A new chapter for San Francisco\u2019s coastline begins\nThe post 13,000 People Attend Sunset Dunes Opening appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/14/13000-people-attend-sunset-dunes-park-opening",
+        "publishedAt": "2025-04-14T23:30:53+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "calhealthreport.org"
+        },
+        "author": "Ricky Rodas",
+        "title": "\u2018I Cannot Fall Apart Right Now.\u2019 Kids With Disabilities and Their Families Struggle in Aftermath of Wildfire Displacement",
+        "description": "Thousands of families lost their homes that swept through Los Angeles County in early January. Local and state disability advocates said they have been checking in with families and trying to provide support as they adjust to life after the fires.\u2018I Cannot Fall Apart Right Now.\u2019 Kids With Disabilities and Their Families Struggle in Aftermath of Wildfire Displacement was first posted on April 14, 2025 at 11:26 am.\u00a92021 \"California Health Report\".",
+        "url": "https://www.calhealthreport.org/2025/04/14/i-cannot-fall-apart-right-now-kids-with-disabilities-and-their-families-struggle-in-aftermath-of-wildfire-displacement/",
+        "publishedAt": "2025-04-14T18:26:35+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "calhealthreport.org"
+        },
+        "author": "Shari Horne",
+        "title": "Opinion:\u00a0My Community Depends on Medi-Cal to Survive. Cuts Would Be Devastating",
+        "description": "Let me introduce you to some people whose lives would be upended if Republicans in Congress carry through with plans to decimate health care funding that covers 15 million Californians. They are my neighbors and friends here in Laguna Woods, a small Orange County community in which 83 percent of residents are over 65.Opinion:\u00a0My Community Depends on Medi-Cal to Survive.",
+        "url": "https://www.calhealthreport.org/2025/04/14/opinion-my-community-depends-on-medi-cal-to-survive-cuts-would-be-devastating/",
+        "publishedAt": "2025-04-14T18:25:33+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Roger Rudick",
+        "title": "This Week: Waymos on Market, Muni  Cuts and Cycling, Transit Funding",
+        "description": "Here is a list of events this week. Got an event we should know about?\u00a0Drop us a line.",
+        "url": "https://sf.streetsblog.org/2025/04/14/this-week-waymos-on-market-muni-cuts-and-cycling-transit-funding",
+        "publishedAt": "2025-04-14T15:16:27+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "",
+        "title": "Headlines, April 14",
+        "description": "Get state headlines at\u00a0Streetsblog California, national headlines at\u00a0Streetsblog USA Independent journalism is more important than ever. Won\u2019t you contribute?\nThe post Headlines, April 14 appeared first on Streetsblog San Francisco.",
+        "url": "https://sf.streetsblog.org/2025/04/14/headlines-april-14",
+        "publishedAt": "2025-04-14T15:10:29+00:00"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "sf.streetsblog.org"
+        },
+        "author": "Kea Wilson",
+        "title": "Are State \u2018Victim Funds\u2019 Adequately Compensating Crash Survivors and Their Loved Ones?",
+        "description": "Crime Victims Compensation Funds across America are helping make the survivors of violent crime whole again. But too often, victims of traffic violence get left out.",
+        "url": "https://usa.streetsblog.org/2025/04/14/are-state-victim-funds-adequately-compensating-crash-survivors-and-their-loved-ones",
+        "publishedAt": "2025-04-14T04:03:00+00:00"
+    },
+    {
+        "source": {
+            "id": null,
             "name": "SFGate"
         },
         "author": "By The Associated Press",
